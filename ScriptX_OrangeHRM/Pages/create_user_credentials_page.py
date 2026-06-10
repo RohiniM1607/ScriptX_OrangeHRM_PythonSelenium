@@ -55,15 +55,3 @@ class CreateUserCredentialsPage:
         WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.XPATH, self.success_msg)))
         return self.driver.find_element(By.XPATH,self.success_msg).is_displayed()
 
-    def is_required_validation_message_displayed(self):
-        messages = self.driver.find_elements(By.XPATH, self.required_validation_msg)
-
-        return all(message.text.strip() == "Required" for message in messages)
-
-    def is_duplicate_username_validation_message_displayed(self):
-        WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.XPATH, self.duplicate_username_validation_msg)))
-        return self.driver.find_element(By.XPATH, self.duplicate_username_validation_msg).is_displayed()
-
-    def is_password_mismatch_validation_message_displayed(self):
-        WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.XPATH, self.password_mismatch_validation_msg)))
-        return self.driver.find_element(By.XPATH, self.password_mismatch_validation_msg).is_displayed()
