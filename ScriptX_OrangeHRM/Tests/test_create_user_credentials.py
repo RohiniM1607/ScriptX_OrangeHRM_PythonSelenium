@@ -6,7 +6,7 @@ from Utilities.read_config import get_config
 from Utilities import log_creator
 
 @pytest.mark.usefixtures("setup_and_teardown")
-@pytest.mark.parametrize("role, emp_name, status, user_name, password, confirmpassword", Excel_Reader.get_data("Configurations/TestData.xlsx", "CreateUserCredentials"))
+@pytest.mark.parametrize("role, emp_name, status, user_name, password, confirmpassword", excel_reader.get_data("Configurations/TestData.xlsx", "CreateUserCredentials"))
 class TestCreateUserCredentials:
     def test_create_valid_user_credentials(self, role, emp_name, status, user_name, password, confirmpassword):
         

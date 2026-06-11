@@ -40,7 +40,8 @@ class CreateUserCredentialActions:
             self.base.press_down_and_enter(2)
 
     def enter_username(self, username):
-        self.base.enter_text(self.page.user_name,username)
+        unique_username = f"{username}_{int(time.time())}"
+        self.base.enter_text(self.page.user_name, unique_username)
         time.sleep(5)
 
     def enter_password(self, password):
