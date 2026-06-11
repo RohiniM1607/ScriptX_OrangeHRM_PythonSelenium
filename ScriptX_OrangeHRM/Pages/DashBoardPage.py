@@ -16,12 +16,12 @@ class DashboardPage:
         self.logger.info("DashboardPage: Driver initialized")
 
     def verify_dashboard_loaded(self):
-        WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.XPATH, self.dashboard_header)))
+        WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located((By.XPATH, self.dashboard_header)))
         header_text = self.driver.find_element(By.XPATH, self.dashboard_header).text
         assert header_text == "Dashboard", f"Expected 'Dashboard', get '{header_text}'"
         self.logger.info("DashboardPage: Dashboard loaded and verified")
 
     def navigate_to_my_info(self):
-        WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, self.my_info_menu)))
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.XPATH, self.my_info_menu)))
         self.driver.find_element(By.XPATH, self.my_info_menu).click()
         self.logger.info("DashboardPage: Navigated to My Info page")

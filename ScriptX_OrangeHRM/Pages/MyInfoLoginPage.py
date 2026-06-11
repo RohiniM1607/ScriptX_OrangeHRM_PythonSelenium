@@ -16,20 +16,17 @@ class LoginPage:
         self.logger.info("LoginPage: Driver initialized")
 
     def enter_username(self):
-        time.sleep(2)
         val = read_config.get_config("login credentials", "username")
         self.driver.find_element(By.XPATH, self.username_field).clear()
         self.driver.find_element(By.XPATH, self.username_field).send_keys(val)
         self.logger.info("LoginPage: Username entered")
 
     def enter_password(self):
-        time.sleep(1)
         val = read_config.get_config("login credentials", "password")
         self.driver.find_element(By.XPATH, self.password_field).clear()
         self.driver.find_element(By.XPATH, self.password_field).send_keys(val)
         self.logger.info("LoginPage: Password entered")
 
     def click_login(self):
-        time.sleep(1)
         self.driver.find_element(By.XPATH, self.login_button).click()
         self.logger.info("LoginPage: Login button clicked")
