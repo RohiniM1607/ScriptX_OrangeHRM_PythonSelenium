@@ -1,7 +1,7 @@
 from Pages.create_user_credentials_page import CreateUserCredentialsPage
 from Actions.base_actions import BaseActions
 import time
-
+from Utilities import log_creator
 class CreateUserCredentialActions:
     def __init__(self, driver):
         self.base = BaseActions(driver)
