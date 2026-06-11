@@ -1,28 +1,66 @@
 from Pages.create_user_credentials_page import CreateUserCredentialsPage
+from Actions.base_actions import BaseActions
+import time
 
 class CreateUserCredentialActions:
     def __init__(self, driver):
-        self.page = CreateUserCredentialsPage(driver)
+        self.base = BaseActions(driver)
+        self.page = CreateUserCredentialsPage()
+        self.driver = driver
 
-    def navigate_to_admin_user_management_page(self):
-        self.page.click_admin_menu()
+    def click_admin_menu(self):
+        self.base.click_element(self.page.admin_menu)
 
     def click_add_button(self):
-        self.page.click_add_button()
+        self.base.click_element(self.page.add_btn)
 
     def verify_add_user_page(self):
-        self.page.is_add_user_page_displayed()
+        return self.base.is_element_displayed(self.page.add_user_title)
 
-    def enter_user_credetials(self, role, emp_name, status, username, password, confirm_password):
-        self.page.select_user_role_dropdown(role)
-        self.page.enter_employee_name(emp_name)
-        self.page.select_status_dropdown(status)
-        self.page.enter_username(username)
-        self.page.enter_password(password)
-        self.page.enter_confirm_password(confirm_password)
+    def select_user_role(self, role):
+        self.base.click_element(self.page.user_role)
+        if role.lower() == "admin":
+            self.base.press_down_and_enter(1)
+
+        elif role.lower() == "ess":
+            self.base.press_down_and_enter(2)
+
+    def enter_employee_name(self, employee_name):
+        self.base.click_element(self.page.emp_name)
+        self.base.enter_text(self.page.emp_name, employee_name)
+        self.base.wait_for_element(self.page.employee_suggestion)
+        self.base.press_down_and_enter(1)
+
+    def select_status(self, status):
+        self.base.click_element(self.page.status)
+        if status.lower() == "enabled":
+            self.base.press_down_and_enter(1)
+
+        elif status.lower() == "disabled":
+            self.base.press_down_and_enter(2)
+
+    def enter_username(self, username):
+        self.base.enter_text(self.page.user_name,username)
+        time.sleep(5)
+
+    def enter_password(self, password):
+        self.base.enter_text(self.page.password,password)
+
+    def enter_confirm_password(self, confirm_password):
+        self.base.enter_text(self.page.confirm_password,confirm_password)
+
+    def enter_user_credentials(self, role, emp_name, status, username, password,confirm_password):
+        self.select_user_role(role)
+        self.enter_employee_name(emp_name)
+        self.select_status(status)
+        self.enter_username(username)
+        self.enter_password(password)
+        self.enter_confirm_password(confirm_password)
 
     def click_save_button(self):
-        self.page.click_save_button()
+        time.sleep(5)
+        self.base.click_element(self.page.save_btn)
 
     def verify_success_message_displayed(self):
-        self.page.is_success_message_displayed()
+        return self.base.is_element_displayed(self.page.success_msg)
+
