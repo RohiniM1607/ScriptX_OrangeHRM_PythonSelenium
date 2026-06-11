@@ -12,5 +12,6 @@ def get_data(path, sheet_name):
         for c in range(1, total_columns + 1):
             row_list.append(sheet.cell(r, c).value)
         final_list.append(row_list)
+        
 
     return final_list
