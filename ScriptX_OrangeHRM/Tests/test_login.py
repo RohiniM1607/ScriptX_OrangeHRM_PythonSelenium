@@ -1,7 +1,7 @@
 import pytest
 from Actions.login_action import LoginAction
 from Pages.login_page import LoginPage
-from Utilities.read_config import get_config
+from Utilities.Read_Config import get_config
 
 
 @pytest.mark.usefixtures("setup_and_teardown")
