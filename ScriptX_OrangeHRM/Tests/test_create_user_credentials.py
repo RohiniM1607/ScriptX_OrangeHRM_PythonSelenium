@@ -11,7 +11,7 @@ class TestCreateUserCredentials:
     def test_create_admin_user_credentials(self, role, emp_name, status, user_name, password, confirmpassword):
         self.logger.info("Login to the application")
         login_action = LoginAction(self.driver)
-        login_action.login_with_valid_credentials(
+        login_action.login_valid(
             get_config("Login Details", "username"),
             get_config("Login Details", "password")
         )
@@ -27,7 +27,7 @@ class TestCreateUserCredentials:
     def test_create_employee_user_credentials(self, role, emp_name, status, user_name, password, confirmpassword):
 
         login_action = LoginAction(self.driver)
-        login_action.login_with_valid_credentials(
+        login_action.login_valid(
             get_config("Login Details", "username"),
             get_config("Login Details", "password")
         )
