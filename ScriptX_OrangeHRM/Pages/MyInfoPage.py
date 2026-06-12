@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 
 class MyInfoPage:
 
-    lnk_personal_details = "//a[text()='Personal Details']"
+    lnk_personal_details = "//a[normalize-space()='Personal Details']"
     txt_license_expiry   = "//label[text()='License Expiry Date']/following::input[1]"
     option_text          = "//div[@role='option']//span"
     drp_nationality      = "//label[text()='Nationality']/following::div[contains(@class,'oxd-select-text')][1]"
@@ -29,7 +29,8 @@ class MyInfoPage:
         WebDriverWait(self.driver, 15).until(EC.invisibility_of_element_located((By.XPATH, self.load_spinnner)))
 
     def click_personal_details_tab(self):
-        el = WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, self.lnk_personal_details)))
+        self.wait_for_page_load()   
+        el = WebDriverWait(self.driver, 15).until(EC.presence_of_element_located((By.XPATH, self.lnk_personal_details)))
         self.driver.execute_script("arguments[0].scrollIntoView(true);", el)
         self.driver.execute_script("arguments[0].click();", el)
 
