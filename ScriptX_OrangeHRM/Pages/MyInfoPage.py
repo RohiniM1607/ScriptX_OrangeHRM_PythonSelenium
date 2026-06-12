@@ -21,6 +21,11 @@ class MyInfoPage:
     Test_field           = "//label[text()='Test_Field']/following::input[1]"
     btn1_save            = "(//button[normalize-space()='Save'])[1]"
     msg1_success         = "//div[contains(@class,'oxd-toast ')]//p[contains(@class,'oxd-text')]"
+    btn_add_attachment   = "//button[@class='oxd-button oxd-button--medium oxd-button--text']"
+    inp_file_upload      = "//input[@type='file']"
+    txt_attachment_desc  = "//textarea[@placeholder='Type comment here']"
+    btn_save_attachment  = "(//button[normalize-space()='Save'])[last()]"
+    msg_attachment_success = "//div[contains(@class,'oxd-toast')]//p[contains(@class,'oxd-text')]"
 
     def __init__(self, driver):
         self.driver = driver
@@ -90,3 +95,27 @@ class MyInfoPage:
     def success_message(self):
         WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located((By.XPATH, self.msg1_success)))
         return self.driver.find_element(By.XPATH, self.msg1_success).is_displayed()
+    
+    def click_add_attachment(self):
+        el = WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, self.btn_add_attachment)))
+        self.driver.execute_script("arguments[0].scrollIntoView(true);", el)
+        self.driver.execute_script("arguments[0].click();", el)
+
+    def upload_file(self, file_path):
+        file_input = WebDriverWait(self.driver, 15).until(EC.presence_of_element_located((By.XPATH, self.inp_file_upload)))
+        file_input.send_keys(file_path)
+    
+    def enter_attachment_description(self, description):
+        el = WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, self.txt_attachment_desc)))
+        el.click()
+        el.send_keys(Keys.CONTROL + 'a')
+        el.send_keys(Keys.DELETE)
+        el.send_keys(description)
+
+    def click_save_attachment(self):
+        el = WebDriverWait(self.driver, 15).until(EC.element_to_be_clickable((By.XPATH, self.btn_save_attachment)))
+        self.driver.execute_script("arguments[0].click();", el)
+
+    def verify_attachment_success(self):
+        WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located((By.XPATH, self.msg_attachment_success)))
+        return self.driver.find_element(By.XPATH, self.msg_attachment_success).is_displayed()

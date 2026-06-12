@@ -1,5 +1,6 @@
 from Pages.MyInfoPage import MyInfoPage
 from Utilities.Read_Config import get_config
+import os
 
 class PersonalDetailsAction:
 
@@ -32,3 +33,16 @@ class PersonalDetailsAction:
     def save_and_verify1(self):
         self.page.click_save1()
         return self.page.success_message()
+
+    def add_attachment(self):
+        relative_path = get_config("personal details", "attachment_path")
+        file_path   = os.path.abspath(relative_path)
+        description = get_config("personal details", "attachment_desc")
+
+        self.page.click_add_attachment()
+        self.page.upload_file(file_path)
+        self.page.enter_attachment_description(description)
+        self.page.click_save_attachment()
+
+    def verify_attachment(self):
+        self.page.verify_attachment_success()
