@@ -1,12 +1,9 @@
-import configparser
+from configparser import ConfigParser
 import os
 
-config = configparser.ConfigParser()
-
-config_path = os.path.join(os.path.dirname(__file__), '..', 'Configurations', 'config.ini')
-print("Config path:", os.path.abspath(config_path))     
-config.read(config_path)
-print("Sections found:", config.sections())              
-
 def get_config(category, key):
-    return config.get(category, key)
+    con = ConfigParser()
+    config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)),"Configurations/Config.ini")
+    con.read(config_path)
+
+    return con.get(category, key)

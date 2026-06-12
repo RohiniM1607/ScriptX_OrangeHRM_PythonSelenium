@@ -1,7 +1,7 @@
 from Pages.create_user_credentials_page import CreateUserCredentialsPage
 from Actions.base_actions import BaseActions
 import time
-
+from Utilities import log_creator
 class CreateUserCredentialActions:
     def __init__(self, driver):
         self.base = BaseActions(driver)
@@ -40,8 +40,8 @@ class CreateUserCredentialActions:
             self.base.press_down_and_enter(2)
 
     def enter_username(self, username):
-        self.base.enter_text(self.page.user_name,username)
-        time.sleep(5)
+        self.base.enter_text(self.page.user_name, username)
+        time.sleep(3)
 
     def enter_password(self, password):
         self.base.enter_text(self.page.password,password)
@@ -58,9 +58,10 @@ class CreateUserCredentialActions:
         self.enter_confirm_password(confirm_password)
 
     def click_save_button(self):
-        time.sleep(5)
         self.base.click_element(self.page.save_btn)
 
     def verify_success_message_displayed(self):
         return self.base.is_element_displayed(self.page.success_msg)
+    
+    
 
