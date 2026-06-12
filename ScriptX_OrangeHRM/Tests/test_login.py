@@ -7,6 +7,7 @@ from Utilities.Read_Config import get_config
 @pytest.mark.usefixtures("setup_and_teardown")
 class TestLogin:
 
+    @pytest.mark.dependency(name=["admin_login"])
     def test_valid_login(self):
 
         action = LoginAction(self.driver)
