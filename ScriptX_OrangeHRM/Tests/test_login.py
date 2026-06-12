@@ -1,39 +1,39 @@
 import pytest
 from Actions.login_action import LoginAction
-from Pages.login_page import LoginPage
 from Utilities.Read_Config import get_config
 
 
 @pytest.mark.usefixtures("setup_and_teardown")
 class TestLogin:
 
-    @pytest.mark.dependency(name=["admin_login"])
     def test_valid_login(self):
-
         action = LoginAction(self.driver)
-        page = LoginPage(self.driver)
 
-        action.login(
+        action.login_valid(
             get_config("Login Details", "username"),
             get_config("Login Details", "password")
         )
 
-        actual_result = page.get_dashboard_text()
-        expected_result = "Dashboard"
+        assert action.get_dashboard_text() == "Dashboard"
 
-        assert actual_result == expected_result
 
     def test_invalid_login(self):
-
         action = LoginAction(self.driver)
-        page = LoginPage(self.driver)
 
-        action.login(
+        action.login_invalid(
             get_config("Login Details", "username"),
             get_config("Login Details", "invalid_password")
         )
 
-        actual_result = page.get_invalid_message()
-        expected_result = "Invalid credentials"
+        assert action.get_invalid_message() == "Invalid credentials"
 
-        assert actual_result == expected_result
+
+    def test_empty_credentials(self):
+        action = LoginAction(self.driver)
+
+        action.login_empty_credentials(
+            get_config("Login Details", "empty_username"),
+            get_config("Login Details", "empty_password")
+        )
+
+        assert action.get_required_message() == "Required"
