@@ -14,11 +14,11 @@ class BaseActions:
         element.click()
 
     def enter_text(self, locator, text):
-        element = self.wait.until(EC.visibility_of_element_located((By.XPATH, locator)))
-        element.click()
+        element = self.wait.until(EC.element_to_be_clickable((By.XPATH, locator)))
+        self.driver.execute_script("arguments[0].scrollIntoView(true);",element)
         element.clear()
-        element.send_keys(text)
-    
+        element.send_keys(str(text))
+
     def is_element_displayed(self, locator):
         element = self.wait.until(EC.visibility_of_element_located((By.XPATH, locator)))
         return element.is_displayed()
