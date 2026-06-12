@@ -1,12 +1,13 @@
 import pytest
 from Pages.DashBoardPage import DashBoardPage
 from Actions.PersonalDetailsActions import PersonalDetailsAction
-
+from Actions.login_action import LoginAction
 
 @pytest.mark.usefixtures("setup_and_teardown")
 class TestPersonalDetails:
 
     def test_fill_personal_details(self):
+        LoginAction(self.driver).login("Renukkka R","RenukkkaR@123")
         dashboard = DashBoardPage(self.driver)
         dashboard.verify_dashboard_loaded()       
 
@@ -16,4 +17,4 @@ class TestPersonalDetails:
 
         personal_details.fill_personal_details()
 
-        assert personal_details.save_and_verify(), "Save failed — success toast not displayed"
+        assert personal_details.save_and_verify(), "Save failed — success message is not displayed"
