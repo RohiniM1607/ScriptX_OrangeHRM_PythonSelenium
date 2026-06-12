@@ -9,11 +9,11 @@ from Utilities import Excel_Reader
 class TestLeaveEntitlement:
     
     @pytest.mark.parametrize("EmployeeName, LeaveType, Entitlement",
-            [("John Doe","CAN - Personal", "50"),
+            [("Emily Jones","CAN - Personal", "50"),
             ("Employee 1","CAN - Personal", "60")])
     def test_valid_leave_entitlement(self,EmployeeName,LeaveType,Entitlement):
 
-        LoginAction(self.driver).login_with_valid_credentials(
+        LoginAction(self.driver).login(
             get_config("Login Details", "username"),
             get_config("Login Details", "password"))
 
@@ -34,7 +34,7 @@ class TestLeaveEntitlement:
     @pytest.mark.parametrize("LeaveType, Entitlement", Excel_Reader.invalid_AddLeave_data("Configurations/TestData.xlsx", "All Leave"))
     def test_required_validation(self,LeaveType,Entitlement):
 
-        LoginAction(self.driver).login_with_valid_credentials(
+        LoginAction(self.driver).login(
             get_config("Login Details", "username"),
             get_config("Login Details", "password"))
 
@@ -51,7 +51,7 @@ class TestLeaveEntitlement:
     @pytest.mark.parametrize("EmployeeName, LeaveType, Entitlement", Excel_Reader.exceed_LeaveLimit("Configurations/TestData.xlsx", "All Leave"))
     def test_exceed_validation(self,EmployeeName,LeaveType,Entitlement):
 
-        LoginAction(self.driver).login_with_valid_credentials(
+        LoginAction(self.driver).login(
             get_config("Login Details", "username"),
             get_config("Login Details", "password"))
 

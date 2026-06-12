@@ -14,6 +14,8 @@ def get_data(path, sheet_name):
         final_list.append(row_list)
     return final_list
 
+    return final_list
+
 def invalid_AddLeave_data(path, sheet_name):
     final_list = []
     workbook = openpyxl.load_workbook(path)
