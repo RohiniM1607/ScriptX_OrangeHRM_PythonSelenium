@@ -35,5 +35,5 @@ class TestPersonalDetails:
         actions.navigate_to_my_info()
         actions.navigate_to_personal_details()
         actions.add_invalid_attachment()
-        assert actions.verify_file_size_message(), "File size error message not displayed."
+        assert actions.verify_file_attachment(), "File size error message not displayed."
         

@@ -1,16 +1,36 @@
 import pytest
-from Pages.employee_apply_leave_page import EmployeeApplyLeavePage
 from Actions.employee_apply_leave_action import EmployeeApplyLeaveActions
-from Actions.create_user_credentials_action import CreateUserCredentialActions
 from Actions.login_action import LoginAction
+from Utilities.Read_Config import get_config
+
 
 @pytest.mark.usefixtures("setup_and_teardown")
+class TestEmployeeApplyLeave:
 
-class TestEmployeeApplyLeave():
-    
     def test_employee_apply_leave(self):
-     LoginAction(self.driver).login("Rajaa","Raja@123!!")
-     actions=EmployeeApplyLeaveActions(self.driver)
-     result= actions.apply_leave("CAN - Personal","2026-07-07","2026-07-07" ) 
-     assert result, "Leave application success message was not displayed"
-     print("Employee Leave applied successfully")
+        username   = get_config("employee_leave", "username")
+        password   = get_config("employee_leave", "password")
+        leave_type = get_config("employee_leave", "leave_type")
+        from_date  = get_config("employee_leave", "from_date")
+        # to_date = get_config("employee_leave", "to_date")
+
+        LoginAction(self.driver).login(username, password)
+
+        actions = EmployeeApplyLeaveActions(self.driver)
+        result  = actions.apply_leave(leave_type, from_date)
+
+        assert result, "Leave application success message was not displayed"
+        print("Employee leave applied successfully")
+       
+    def test_apply_leave_without_leave_type(self):
+         username  = get_config("employee_leave", "username")
+         password  = get_config("employee_leave", "password")
+         from_date = get_config("employee_leave", "from_date")
+        #  to_date = get_config("employee_leave", "to_date")
+         LoginAction(self.driver).login(username, password)
+         actions = EmployeeApplyLeaveActions(self.driver)
+         result  = actions.apply_leave_without_leave_type(from_date)
+         assert result, "Expected 'Required' validation error under Leave Type was not displayed"
+         print("Validation triggered correctly: Leave Type is required")
+ 
+    
