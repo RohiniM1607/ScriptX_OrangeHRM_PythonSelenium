@@ -3,6 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from Pages.Leave_entitlement_page import AddLeaveEntitlementPage
 from selenium.webdriver.common.keys import Keys
+from Actions.base_actions import BaseActions
 
 
 class AddLeaveEntitlementActions:
@@ -12,6 +13,7 @@ class AddLeaveEntitlementActions:
         self.page = AddLeaveEntitlementPage()
         self.wait = WebDriverWait(driver, 20)
         self.action = ActionChains(self.driver)
+        self.baseaction = BaseActions(self.driver)
 
 
     # Navigation
@@ -48,8 +50,9 @@ class AddLeaveEntitlementActions:
 
         self.wait.until(EC.visibility_of_all_elements_located(self.page.employee_options))
 
-        field.send_keys(Keys.ARROW_DOWN)
-        field.send_keys(Keys.ENTER)
+        self.baseaction.press_down_and_enter(1)
+        #field.send_keys(Keys.ARROW_DOWN)
+        #field.send_keys(Keys.ENTER)
 
     # Leave Type
     def select_leave_type(self, leave_type):
