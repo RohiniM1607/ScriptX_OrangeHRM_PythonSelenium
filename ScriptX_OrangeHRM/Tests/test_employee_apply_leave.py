@@ -12,8 +12,7 @@ class TestEmployeeApplyLeave:
         password   = get_config("employee_leave", "password")
         leave_type = get_config("employee_leave", "leave_type")
         from_date  = get_config("employee_leave", "from_date")
-        to_date    = get_config("employee_leave", "to_date")
-        comment    = get_config("employee_leave", "comment")
+        # to_date = get_config("employee_leave", "to_date")
 
         LoginAction(self.driver).login(username, password)
 
@@ -23,6 +22,15 @@ class TestEmployeeApplyLeave:
         assert result, "Leave application success message was not displayed"
         print("Employee leave applied successfully")
        
-
-     
+    def test_apply_leave_without_leave_type(self):
+         username  = get_config("employee_leave", "username")
+         password  = get_config("employee_leave", "password")
+         from_date = get_config("employee_leave", "from_date")
+        #  to_date = get_config("employee_leave", "to_date")
+         LoginAction(self.driver).login(username, password)
+         actions = EmployeeApplyLeaveActions(self.driver)
+         result  = actions.apply_leave_without_leave_type(from_date)
+         assert result, "Expected 'Required' validation error under Leave Type was not displayed"
+         print("Validation triggered correctly: Leave Type is required")
+ 
     

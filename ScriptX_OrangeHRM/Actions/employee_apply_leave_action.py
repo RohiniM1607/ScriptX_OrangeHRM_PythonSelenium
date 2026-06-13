@@ -2,7 +2,6 @@ from Pages.employee_apply_leave_page import EmployeeApplyLeavePage
 from Actions.base_actions import BaseActions
 import time
 
-
 class EmployeeApplyLeaveActions(BaseActions):
 
     def __init__(self, driver):
@@ -41,9 +40,10 @@ class EmployeeApplyLeaveActions(BaseActions):
     def apply(self):
         self.click_tuple_locator(self.page.apply_button)
 
-    
+   
+ 
     def get_success_message_display(self):
-     element = self.wait_for_element_tuple(self.page.success_msg)
+     element = self.wait_for_element_presence(self.page.success_msg)
      return element.is_displayed()
 
     def get_to_date_error(self):
@@ -53,5 +53,16 @@ class EmployeeApplyLeaveActions(BaseActions):
         self.navigate_to_apply_leave_page()
         self.select_leave_type(leave_type)
         self.enter_from_date(from_date)
+        # self.enter_from_date(to_date)
         self.apply()
-        return self.get_success_message_display()
+        element = self.wait_for_element_presence(self.page.success_msg)
+        return element.is_displayed()
+        # return self.get_success_message_display()
+    
+    def apply_leave_without_leave_type(self, from_date):
+     self.navigate_to_apply_leave_page() 
+     self.enter_from_date(from_date) 
+    #  self.enter_from_date(to_date)    
+     self.apply()
+     error = self.wait_for_element_tuple(self.page.leave_type_required_error)
+     return error.is_displayed()

@@ -14,6 +14,8 @@ class EmployeeApplyLeavePage:
     to_date_input           = (By.XPATH, "(//div[@class='oxd-date-input']//child::input[@class='oxd-input oxd-input--active'])[2]")
     comments_textarea       = (By.XPATH, "//textarea[@placeholder='Type here']")
     apply_button            = (By.XPATH, "//button[normalize-space()='Apply']")
-    success_msg             = (By.XPATH, "//div[contains(@class,'oxd-toast--success')]//p[2]")
+    success_msg             = (By.XPATH, "//div[contains(@class,'oxd-toast--success')]")
     to_date_error_msg       = (By.XPATH, "//span[text()='To date should be after from date']") 
     leave_balance_text      = (By.XPATH, "//*[contains(text(),'Day(s)')]")
+    leave_type_required_error = (By.XPATH, "//span[text()='Required']")
+    
