@@ -54,7 +54,7 @@ def get_contact_details_data(path, sheet_name):
     workbook = openpyxl.load_workbook(path)
     sheet = workbook[sheet_name]
 
-    for r in range(6, sheet.max_row + 1):  
+    for r in range(2, sheet.max_row + 1): 
         row_list = []
         for c in range(1, 11): 
             row_list.append(sheet.cell(r, c).value)
