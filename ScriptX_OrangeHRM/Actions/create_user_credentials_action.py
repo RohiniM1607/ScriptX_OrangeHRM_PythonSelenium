@@ -65,22 +65,34 @@ class CreateUserCredentialActions:
     def enter_confirm_password(self, confirm_password):
         self.base.enter_text(self.page.confirm_password,confirm_password)
 
-    def enter_user_credentials(self, role, emp_name, status, username, password,confirm_password, handle_duplicate=True):
-        self.select_user_role(role)
-        self.enter_employee_name(emp_name)
-        self.select_status(status)
-        self.enter_username(username, handle_duplicate)
-        self.enter_password(password)
-        self.enter_confirm_password(confirm_password)
-    
+    def enter_user_credentials(self, role, emp_name, status,username, password, confirm_password,handle_duplicate=True):
+        if role is not None:
+            self.select_user_role(role)
+
+        if emp_name is not None:
+            self.enter_employee_name(emp_name)
+
+        if status is not None:
+            self.select_status(status)
+
+        if username is not None:
+            self.enter_username(username, handle_duplicate)
+
+        if password is not None:
+            self.enter_password(password)
+
+        if confirm_password is not None:
+            self.enter_confirm_password(confirm_password)
 
     def verify_duplicate_username_message(self):
         return self.base.is_element_present(self.page.duplicate_username_validation_msg)
     
     def verify_required_field_messages(self):
-        messages = self.base.is_element_present(self.page.required_field_validation_msg)
-        return len(messages) > 0
+        return self.base.is_element_present(self.page.required_field_validation_msg)
 
+    def verify_password_mismatch_message(self):
+        return self.base.is_element_present(self.page.password_mismatch_validation_msg)
+    
     def click_save_button(self):
         time.sleep(2)
         self.base.click_element(self.page.save_btn)
@@ -88,5 +100,5 @@ class CreateUserCredentialActions:
     def verify_success_message_displayed(self):
         return self.base.is_element_displayed(self.page.success_msg)
     
-    
-
+    def verify_password_mismatch_message(self):
+        return self.base.is_element_present(self.page.password_mismatch_validation_msg)
