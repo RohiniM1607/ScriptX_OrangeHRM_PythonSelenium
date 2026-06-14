@@ -19,5 +19,6 @@ class CreateUserCredentialsPage:
     required_validation_msg = "//span[text()='Required']"
     duplicate_username_validation_msg = "//span[text()='Already exists']"
     password_mismatch_validation_msg = "//span[text()='Passwords do not match']"
+    required_field_validation_msg = "//span[text()='Required']"
 
     
