@@ -12,7 +12,7 @@ class TestEmployeeApplyLeave:
         password   = get_config("employee_leave", "password")
         leave_type = get_config("employee_leave", "leave_type")
         from_date  = get_config("employee_leave", "from_date")
-        # to_date = get_config("employee_leave", "to_date")
+       
 
         LoginAction(self.driver).login(username, password)
 
@@ -26,7 +26,6 @@ class TestEmployeeApplyLeave:
          username  = get_config("employee_leave", "username")
          password  = get_config("employee_leave", "password")
          from_date = get_config("employee_leave", "from_date")
-        #  to_date = get_config("employee_leave", "to_date")
          LoginAction(self.driver).login(username, password)
          actions = EmployeeApplyLeaveActions(self.driver)
          result  = actions.apply_leave_without_leave_type(from_date)
