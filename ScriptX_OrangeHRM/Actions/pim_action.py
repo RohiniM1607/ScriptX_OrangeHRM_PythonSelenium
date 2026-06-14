@@ -28,3 +28,14 @@ class PimAction:
         self.base.enter_text(self.page.last_name, lastname)
         self.base.enter_text(self.page.emp_id, empid)
         self.base.click_element(self.page.submit_button)
+
+    def search_employee(self, employee_name):
+        self.open_pim_module()
+        self.base.enter_text(self.page.employee_name_search, employee_name)
+        self.base.click_element(self.page.search_button)
+
+    def is_employee_found(self):
+        return self.base.is_element_displayed(self.page.employee_record)
+
+    def is_no_record_found(self):
+        return self.base.is_element_displayed(self.page.no_records_found)
