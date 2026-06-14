@@ -48,3 +48,15 @@ def exceed_LeaveLimit(path, sheet_name):
 def get_filtered_data(path, sheet_name, filter_value):
     data = get_data(path, sheet_name)
     return [row[1:]   for row in data if row[0] == filter_value]
+
+def get_contact_details_data(path, sheet_name):
+    final_list = []
+    workbook = openpyxl.load_workbook(path)
+    sheet = workbook[sheet_name]
+
+    for r in range(6, sheet.max_row + 1):  
+        row_list = []
+        for c in range(1, 11): 
+            row_list.append(sheet.cell(r, c).value)
+        final_list.append(row_list)
+    return final_list
