@@ -15,3 +15,7 @@ class ContactDetailsPage:
     txt_work_email       = "//label[text()='Work Email']/following::input[1]"
     btn_save             = "(//div[contains(@class,'orangehrm-card-container')])[1]//button[normalize-space()='Save']"
     msg_success          = "//div[contains(@class,'oxd-toast-content')]//p[1]"
+    btn_add_attachment   = "//h6[text()='Attachments']/following::button[1]"
+    inp_file_upload      = "//input[@type='file']"
+    btn_save_attachment  = "//div[contains(@class,'orangehrm-attachment')]//button[normalize-space()='Save']"
+    load_spinner         = "//div[contains(@class,'oxd-loading-spinner-container')]"

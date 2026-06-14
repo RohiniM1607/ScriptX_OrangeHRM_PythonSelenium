@@ -3,7 +3,6 @@ from Pages.ContactDetailsPage import ContactDetailsPage
 from Pages.DashBoardPage import DashBoardPage
 from Actions.base_actions import BaseActions
 from Utilities.Read_Config import get_config
-from Utilities import excel_reader
 
 
 class ContactDetailsAction:
@@ -13,7 +12,6 @@ class ContactDetailsAction:
         self.page      = ContactDetailsPage()
         self.dashboard = DashBoardPage()
         self.driver    = driver
-
 
     def verify_dashboard_loaded(self):
         return self.base.is_element_displayed(self.dashboard.txt_dashboard)
@@ -78,5 +76,23 @@ class ContactDetailsAction:
     def save_and_verify(self):
         self.base.click_element(self.page.btn_save)
         return self.base.is_element_displayed(self.page.msg_success)
-
     
+    def click_add_attachment(self):
+        self.base.wait_for_element_invisible(self.page.load_spinner)
+        self.base.js_click(self.page.btn_add_attachment)
+
+    def upload_attachment_file(self, file_path):
+        self.base.upload_file(self.page.inp_file_upload, file_path)
+
+    def save_attachment(self):
+        self.base.js_click(self.page.btn_save_attachment)
+
+    def add_attachment(self):
+        self.click_add_attachment()
+        self.upload_attachment_file(
+            os.path.abspath(get_config("contact details", "attachment_path"))
+        )
+        self.save_attachment()
+
+    def verify_attachment(self):
+        return self.base.is_element_displayed(self.page.msg_success)
