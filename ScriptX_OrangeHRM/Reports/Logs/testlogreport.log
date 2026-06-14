@@ -8,3 +8,36 @@
 2026-06-12 14:41:56 PM - INFO - Login to the application
 2026-06-12 14:43:33 PM - INFO - Login to the application
 2026-06-12 14:44:42 PM - INFO - Login to the application
+<<<<<<< Updated upstream
+=======
+2026-06-12 15:13:42 PM - INFO - Login to the application
+2026-06-12 15:14:39 PM - INFO - Login to the application
+2026-06-12 15:17:23 PM - INFO - Login to the application
+2026-06-12 15:20:08 PM - INFO - Login to the application
+2026-06-12 15:20:48 PM - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=53707): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/f3b495ef43eb655853053dbbea4c6f74
+2026-06-12 15:31:07 PM - INFO - Login to the application
+2026-06-12 15:32:52 PM - INFO - Login to the application
+2026-06-12 15:45:14 PM - INFO - Login to the application
+2026-06-12 15:45:46 PM - INFO - Login to the application
+2026-06-12 15:50:35 PM - INFO - Login to the application
+2026-06-12 15:51:09 PM - INFO - Login to the application
+2026-06-12 15:59:50 PM - INFO - Login to the application
+2026-06-12 16:00:48 PM - INFO - Login to the application
+2026-06-12 16:01:43 PM - INFO - Login to the application
+2026-06-12 16:02:15 PM - INFO - Login to the application
+2026-06-12 16:45:20 PM - INFO - Login to the application
+2026-06-12 16:46:16 PM - INFO - Login to the application
+2026-06-12 16:51:24 PM - INFO - Login to the application
+2026-06-14 08:56:00 AM - INFO - Login to the application
+2026-06-14 08:58:19 AM - INFO - Login to the application
+2026-06-14 09:00:46 AM - INFO - Login to the application
+2026-06-14 10:14:16 AM - INFO - Login to the application
+2026-06-14 10:31:48 AM - INFO - Login to the application
+2026-06-14 10:33:07 AM - INFO - Login to the application
+2026-06-14 10:37:26 AM - INFO - Login to the application
+2026-06-14 23:15:07 PM - INFO - Starting test: test_search_without_leave_type
+2026-06-14 23:15:07 PM - INFO - Logging in as: Rajaa
+2026-06-14 23:15:08 PM - INFO - Login successful
+2026-06-14 23:15:08 PM - INFO - Deselecting all status tags and searching without leave type
+2026-06-14 23:15:43 PM - INFO - Record Count Text : (1) Record Found
+>>>>>>> Stashed changes

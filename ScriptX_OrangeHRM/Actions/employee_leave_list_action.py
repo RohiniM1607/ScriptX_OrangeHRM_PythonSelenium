@@ -42,8 +42,13 @@ class EmployeeLeaveListActions(BaseActions):
         self.select_leave_type(leave_type_name)
         self.click_search()
         return self.get_status_for_leave_type(leave_type_name)
+<<<<<<< Updated upstream
 
     def search_without_leave_type(self):
+=======
+    
+    def without_applying_leave(self):
+>>>>>>> Stashed changes
         self.navigate_to_my_leave_page()
         self.click_search()
         element = self.wait_for_element_tuple(self.page.record_count_text)

@@ -38,6 +38,7 @@ class TestEmployeeLeaveList:
 
         log.info(f"Logging in as: {username}")
         LoginAction(self.driver).login(username, password)
+<<<<<<< Updated upstream
         log.info("Login successful")
 
         actions     = EmployeeLeaveListActions(self.driver)
@@ -49,6 +50,17 @@ class TestEmployeeLeaveList:
         assert "No Records Found" in record_text, f"Expected 0 records but got: '{record_text}'"
         log.info("Test passed: No Records Found displayed when searched without leave type")
 
+=======
+ 
+        actions      = EmployeeLeaveListActions(self.driver)
+        record_text  = actions.without_applying_leave()
+ 
+        print(f"Record Count Text : {record_text}")
+ 
+        assert " No  Records found" in record_text, f"Expected 0 records but got: '{record_text}'"
+        print("Validation passed: 0 Records found when searched without leave type")
+        
+>>>>>>> Stashed changes
     def test_remaining_leave_balance(self):
         log.info("Starting test: test_remaining_leave_balance")
 
