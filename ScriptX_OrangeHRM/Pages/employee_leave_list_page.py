@@ -8,8 +8,13 @@ class EmployeeLeaveListPage(EmployeeApplyLeavePage):
 
     search_button          = (By.XPATH, "//button[normalize-space()='Search']")
 
-    table_rows             = (By.XPATH, "//div[@class='oxd-table-body']//div[@role='row']")
+    table_rows             = (By.XPATH, "//div[@role='row']")
+    
+    leave_type_cell_by_row = "//div[@class='oxd-table-body']//div[@role='row'][{row}]//div[@role='cell'][4]/div"
 
-    leave_type_cell_by_row = "//div[@class='oxd-table-body']//div[@role='row'][{row}]//div[@role='cell'][3]/div"
-
-    status_cell_by_row     = "//div[@class='oxd-table-body']//div[@role='row'][{row}]//div[@role='cell'][6]/div"
+    status_cell_by_row = "//div[@class='oxd-table-body']//div[@role='row'][{row}]//div[@role='cell'][7]/div"
+    
+    record_count_text      = (By.XPATH, "//div[contains(@class,'orangehrm-header-container')]//span[contains(@class,'oxd-text--span')]")
+       
+    leave_balance_cell_by_row = "//div[@class='oxd-table-body']//div[@role='row'][{row}]//div[@role='cell'][5]/div"
+ 

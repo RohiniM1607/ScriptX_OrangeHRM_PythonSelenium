@@ -26,8 +26,12 @@ class BaseActions:
     def enter_text_and_tab(self, locator_tuple, text):
         element = self.wait.until(EC.element_to_be_clickable(locator_tuple))
         element.click()
-        element.clear()
         element.send_keys(text)
+
+    def clear_text(self, locator):
+        element = self.wait.until(EC.visibility_of_element_located((By.XPATH, locator)))
+        element.clear()
+    
         element.send_keys(Keys.TAB)
     def clear_and_enter_text(self, locator, text):
         element = self.wait.until(EC.element_to_be_clickable((By.XPATH, locator)))
@@ -39,6 +43,13 @@ class BaseActions:
     def is_element_displayed(self, locator):
         element = self.wait.until(EC.visibility_of_element_located((By.XPATH, locator)))
         return element.is_displayed()
+    
+    def is_element_present(self, locator):
+        try:
+            self.driver.find_element(By.XPATH, locator)
+            return True
+        except:
+            return False
 
     def get_text(self, locator):
         element = self.wait.until(EC.visibility_of_element_located((By.XPATH, locator)))
