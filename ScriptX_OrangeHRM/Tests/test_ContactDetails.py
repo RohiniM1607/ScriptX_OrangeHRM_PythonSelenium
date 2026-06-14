@@ -12,19 +12,21 @@ class TestContactDetails:
         "street1, street2, city, state, zip_code, country, home_telephone, mobile, work_telephone, work_email",
         excel_reader.get_data("Configurations/ContactData.xlsx", "ContactDetails")
     )
-    def test_fill_contact_details(self, street1, street2, city, state, zip_code,
-                                   country, home_telephone, mobile, work_telephone, work_email):
-        LoginAction(self.driver).login(
-            get_config("login credentials", "username"),
-            get_config("login credentials", "password")
-        )
+    def test_fill_contact_details(self, street1, street2, city, state, zip_code, country, home_telephone, mobile, work_telephone, work_email):
+        LoginAction(self.driver).login("Renukkka R","RenukkkaR@123")
         actions = ContactDetailsAction(self.driver)
         assert actions.verify_dashboard_loaded(), "Dashboard not loaded."
-
         actions.navigate_to_my_info()
         actions.navigate_to_contact_details()
-        actions.fill_contact_details(
-            street1, street2, city, state, zip_code,
-            country, home_telephone, mobile, work_telephone, work_email
-        )
+        actions.fill_contact_details(street1, street2, city, state, zip_code,country, home_telephone, mobile, work_telephone, work_email)
         assert actions.save_and_verify(), "Save failed — success message not displayed."
+
+    
+    def test_add_attachment(self):
+        LoginAction(self.driver).login("Renukkka R","RenukkkaR@123")
+        actions = ContactDetailsAction(self.driver)
+        assert actions.verify_dashboard_loaded(), "Dashboard not loaded."
+        actions.navigate_to_my_info()
+        actions.navigate_to_contact_details()
+        actions.add_attachment()
+        assert actions.verify_attachment(), "Attachment upload failed — success message not displayed."
