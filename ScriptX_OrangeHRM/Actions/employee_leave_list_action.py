@@ -36,9 +36,32 @@ class EmployeeLeaveListActions(BaseActions):
             if leave_type_el.text.strip().lower() == leave_type_name.lower():
                 status_el = self.driver.find_element(By.XPATH, status_xpath)
                 return status_el.text.strip()
+            
 
     def search_leave_and_get_status(self, leave_type_name):
         self.navigate_to_my_leave_page()
         self.select_leave_type(leave_type_name)
         self.click_search()
         return self.get_status_for_leave_type(leave_type_name)
+    
+    def search_without_leave_type(self):
+        self.navigate_to_my_leave_page()
+        self.click_search()
+        element = self.wait_for_element_tuple(self.page.record_count_text)
+        return element.text.strip()
+    
+    def get_leave_balance_for_leave_type(self, leave_type_name):
+        self.navigate_to_my_leave_page()
+        self.select_leave_type(leave_type_name)
+        self.click_search()
+        total_rows = self.get_total_rows()
+        for row_index in range(1, total_rows + 1):
+            leave_type_xpath  = self.page.leave_type_cell_by_row.format(row=row_index)
+            balance_xpath     = self.page.leave_balance_cell_by_row.format(row=row_index)
+            leave_type_el     = self.driver.find_element(By.XPATH, leave_type_xpath)
+            if leave_type_el.text.strip().lower() == leave_type_name.lower():
+                balance_el = self.driver.find_element(By.XPATH, balance_xpath)
+                return balance_el.text.strip()
+            
+            
+ 
