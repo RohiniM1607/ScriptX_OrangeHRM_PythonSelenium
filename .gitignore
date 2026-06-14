@@ -15,3 +15,5 @@ allure-report/
 # Logs
 Reports/Logs/
 *.log
+
+Configurations/TestData.xlsx
