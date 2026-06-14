@@ -41,3 +41,28 @@
 2026-06-14 23:15:08 PM - INFO - Deselecting all status tags and searching without leave type
 2026-06-14 23:15:43 PM - INFO - Record Count Text : (1) Record Found
 >>>>>>> Stashed changes
+2026-06-15 00:05:01 AM - INFO - Starting test: test_employee_leave_list_status
+2026-06-15 00:05:02 AM - INFO - Login successful
+2026-06-15 00:05:02 AM - INFO - Searching leave status for leave type: CAN - Personal
+2026-06-15 00:05:37 AM - INFO - Leave Status : Scheduled (1.00)
+2026-06-15 00:05:37 AM - INFO - Test passed: Leave status verified successfully
+2026-06-15 00:05:55 AM - INFO - Starting test: test_remaining_leave_balance
+2026-06-15 00:05:55 AM - INFO - Logging in as: Rajaa
+2026-06-15 00:05:56 AM - INFO - Login successful
+2026-06-15 00:05:56 AM - INFO - Fetching leave balance for leave type: CAN - Personal
+2026-06-15 00:06:30 AM - INFO - Remaining Leave Balance : 99.00
+2026-06-15 00:06:30 AM - INFO - Test passed: Leave balance is available. Remaining Leave Balance : 99.00
+2026-06-15 00:12:21 AM - INFO - Starting test: test_employee_leave_list_status
+2026-06-15 00:12:22 AM - INFO - Login successful
+2026-06-15 00:12:22 AM - INFO - Searching leave status for leave type: CAN - Personal
+2026-06-15 00:12:56 AM - INFO - Leave Status : Scheduled (1.00)
+2026-06-15 00:12:56 AM - INFO - Test passed: Leave status verified successfully
+2026-06-15 00:13:01 AM - INFO - Starting test: test_without_applying_leave
+2026-06-15 00:13:02 AM - INFO - Login successful
+2026-06-15 00:13:26 AM - INFO - Record Count Text : (2) Records Found
+2026-06-15 00:13:32 AM - INFO - Starting test: test_remaining_leave_balance
+2026-06-15 00:13:32 AM - INFO - Logging in as: Rajaa
+2026-06-15 00:13:33 AM - INFO - Login successful
+2026-06-15 00:13:33 AM - INFO - Fetching leave balance for leave type: CAN - Personal
+2026-06-15 00:14:07 AM - INFO - Remaining Leave Balance : 99.00
+2026-06-15 00:14:07 AM - INFO - Test passed: Leave balance is available. Remaining Leave Balance : 99.00
