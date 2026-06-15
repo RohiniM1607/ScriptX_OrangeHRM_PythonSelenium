@@ -1,0 +1,10 @@
+testcase,employee_name,leave_type,leave_period
+employee_name,Admin 1,CAN - Vacation,01-01-2026 - 31-12-2026
+employee_name,Employee 1,CAN - Vacation,01-01-2026 - 31-12-2026
+leave_type,Linda Anderson,CAN - Bereavement,01-01-2026 - 31-12-2026
+leave_type,Linda Anderson,CAN - Vacation,01-01-2026 - 31-12-2026
+leave_period,Linda Anderson,CAN - Vacation,01-01-2025 - 31-12-2025
+leave_period,Linda Anderson,CAN - Vacation,01-01-2026 - 31-12-2026
+invalid_employee,InvalidEmp,CAN - Vacation,01-01-2026 - 31-12-2026
+invalid_employee,TestUser123,CAN - Vacation,01-01-2026 - 31-12-2026
+without_employee,,CAN - Vacation,01-01-2026 - 31-12-2026
