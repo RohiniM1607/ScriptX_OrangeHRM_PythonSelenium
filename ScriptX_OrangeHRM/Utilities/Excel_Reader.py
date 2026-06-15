@@ -47,4 +47,5 @@ def exceed_LeaveLimit(path, sheet_name):
     return final_list
 def get_filtered_data(path, sheet_name, filter_value):
     data = get_data(path, sheet_name)
-    return [row[1:]   for row in data if row[0] == filter_value]
+    return [row[1:]   for row in data if str(row[0]).strip() == filter_value.strip()]
+

@@ -11,6 +11,7 @@ class CreateUserCredentialsPage:
     employee_suggestion = "//div[@role='listbox']//span"
     status = "(//div[@class='oxd-select-text-input'])[2]"
     user_name = "//label[text()='Username']/parent::div/following-sibling::div//input"
+    username_exist_msg = "//span[contains(text(),'Already exists')]"
     password = "//label[text()='Password']/parent::div/following-sibling::div//input"
     confirm_password = "//label[text()='Confirm Password']/parent::div/following-sibling::div//input"
     save_btn = "//button[@type='submit']"
@@ -18,5 +19,6 @@ class CreateUserCredentialsPage:
     required_validation_msg = "//span[text()='Required']"
     duplicate_username_validation_msg = "//span[text()='Already exists']"
     password_mismatch_validation_msg = "//span[text()='Passwords do not match']"
+    required_field_validation_msg = "//span[text()='Required']"
 
     
