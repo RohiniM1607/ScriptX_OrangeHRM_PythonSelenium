@@ -40,6 +40,13 @@ class BaseActions:
     def is_element_displayed(self, locator):
         element = self.wait.until(EC.visibility_of_element_located((By.XPATH, locator)))
         return element.is_displayed()
+    
+    def is_element_present(self, locator):
+        try:
+            self.driver.find_element(By.XPATH, locator)
+            return True
+        except:
+            return False
 
     def get_text(self, locator):
         element = self.wait.until(EC.visibility_of_element_located((By.XPATH, locator)))
