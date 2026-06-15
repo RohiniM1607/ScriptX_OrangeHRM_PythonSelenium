@@ -7,7 +7,7 @@ from Utilities.Excel_Reader import get_data
 
 test_data = get_data("Configurations/TestData.xlsx", "CreateUser")
 
-
+@pytest.mark.jagadeep
 @pytest.mark.usefixtures("setup_and_teardown")
 class TestPim:
 
