@@ -3,16 +3,17 @@ import pytest
 from Actions.login_action import LoginAction
 from Actions.pim_action import PimAction
 from Utilities.Read_Config import get_config
-from Utilities.Excel_Reader import get_data
+from Utilities.csv_reader import get_data_csv
 
-test_data = get_data("Configurations/TestData.xlsx", "CreateUser")
+search_data = get_data_csv("SearchEmployee.csv")
 
-
+@pytest.mark.jagadeep
 @pytest.mark.usefixtures("setup_and_teardown")
-class TestPim:
+class TestSearchEmployee:
 
-    @pytest.mark.parametrize("firstname, lastname, empid", test_data)
-    def test_add_employee(self, firstname, lastname, empid):
+    @pytest.mark.parametrize("employee_name", search_data)
+    def test_search_employee(self, employee_name):
+
         login = LoginAction(self.driver)
 
         login.login_valid(
@@ -24,9 +25,6 @@ class TestPim:
 
         pim = PimAction(self.driver)
 
-        pim.open_pim_module()
-        assert pim.is_pim_page_displayed() is True
+        pim.search_employee(employee_name)
 
-        pim.add_employee(firstname, lastname, empid)
-
-        assert pim.is_success_message_displayed() is True
+        assert pim.is_employee_found() is True

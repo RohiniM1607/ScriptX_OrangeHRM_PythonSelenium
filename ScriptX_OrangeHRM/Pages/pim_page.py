@@ -9,3 +9,8 @@ class PimPage:
     pim_page_header = "//h6[text()='PIM']"
     personal_details_header = "//h6[text()='Personal Details']"
     success_message = "//div[contains(@class,'oxd-toast-content')]"
+
+    employee_name_search = "(//input[@placeholder='Type for hints...'])[1]"
+    search_button = "//button[@type='submit']"
+    employee_record = "//div[@role='rowgroup']"
+    no_records_found = "//span[text()='No Records Found']"
