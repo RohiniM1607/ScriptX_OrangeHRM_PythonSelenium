@@ -7,7 +7,7 @@ from Utilities.csv_reader import get_data_csv
 
 search_data = get_data_csv("SearchEmployee.csv")
 
-
+@pytest.mark.jagadeep
 @pytest.mark.usefixtures("setup_and_teardown")
 class TestSearchEmployee:
 
