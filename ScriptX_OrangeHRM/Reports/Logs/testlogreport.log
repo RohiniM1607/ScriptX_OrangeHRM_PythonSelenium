@@ -33,3 +33,36 @@
 2026-06-14 10:31:48 AM - INFO - Login to the application
 2026-06-14 10:33:07 AM - INFO - Login to the application
 2026-06-14 10:37:26 AM - INFO - Login to the application
+2026-06-15 07:35:47 AM - INFO - Starting test: test_create_post
+2026-06-15 07:35:53 AM - INFO - Starting test: test_edit_post
+2026-06-15 07:35:53 AM - INFO - Logging in as: Rajaa
+2026-06-15 07:35:56 AM - INFO - Login successful
+2026-06-15 07:35:56 AM - INFO - Navigating to Buzz page
+2026-06-15 07:38:27 AM - INFO - Starting test: test_create_post
+2026-06-15 07:38:34 AM - INFO - Starting test: test_edit_post
+2026-06-15 07:38:34 AM - INFO - Logging in as: Rajaa
+2026-06-15 07:38:36 AM - INFO - Login successful
+2026-06-15 07:38:36 AM - INFO - Navigating to Buzz page
+2026-06-15 07:38:39 AM - INFO - Editing latest post with text: ["I'm Happy", "Today, I'm attending a party to celebrate our project's success."]
+2026-06-15 07:42:40 AM - INFO - Starting test: test_create_post
+2026-06-15 07:42:41 AM - INFO - Logging in as: Rajaa
+2026-06-15 07:42:41 AM - INFO - Login successful
+2026-06-15 07:42:41 AM - INFO - Navigating to Buzz page
+2026-06-15 07:42:44 AM - INFO - Creating post with text: ["I'm Happy", "Today, I'm attending a party to celebrate our project's success."]
+2026-06-15 07:43:24 AM - INFO - Starting test: test_edit_post
+2026-06-15 07:43:24 AM - INFO - Logging in as: Rajaa
+2026-06-15 07:43:26 AM - INFO - Login successful
+2026-06-15 07:43:26 AM - INFO - Navigating to Buzz page
+2026-06-15 07:43:27 AM - INFO - Editing latest post with text: ["I'm Happy", "Today, I'm attending a party to celebrate our project's success."]
+2026-06-15 07:50:32 AM - INFO - Starting test: test_create_post
+2026-06-15 07:50:32 AM - INFO - Logging in as: Rajaa
+2026-06-15 07:50:33 AM - INFO - Login successful
+2026-06-15 07:50:33 AM - INFO - Navigating to Buzz page
+2026-06-15 07:50:37 AM - INFO - Creating post with text: I'm Happy
+2026-06-15 07:50:40 AM - INFO - Latest post username: Rajaa P
+2026-06-15 07:50:40 AM - INFO - Test passed: Post created and username matched successfully
+2026-06-15 07:50:47 AM - INFO - Starting test: test_edit_post
+2026-06-15 07:50:47 AM - INFO - Logging in as: Rajaa
+2026-06-15 07:50:48 AM - INFO - Login successful
+2026-06-15 07:50:48 AM - INFO - Navigating to Buzz page
+2026-06-15 07:50:50 AM - INFO - Editing latest post with text: Today, I'm attending a party to celebrate our project's success.
