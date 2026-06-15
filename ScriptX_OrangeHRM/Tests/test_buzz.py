@@ -4,7 +4,7 @@ from Actions.login_action import LoginAction
 from Actions.buzz_action import BuzzAction
 from Utilities.Read_Config import get_config
 
-
+@pytest.mark.jagadeep
 @pytest.mark.usefixtures("setup_and_teardown")
 class TestBuzz:
 
