@@ -10,8 +10,8 @@ class TestLeaveEntitlement:
     
     @pytest.mark.myl
     @pytest.mark.parametrize("EmployeeName, LeaveType, Entitlement",
-            [("Ravi M B","CAN - Personal", "50"),
-            ("Ravi M B","CAN - Vacation", "60")])
+            [("Teja  Sai","CAN - Personal", "50"),
+            ("Teja  Sai","CAN - Vacation", "60")])
     def test_valid_leave_entitlement(self,EmployeeName,LeaveType,Entitlement):
 
         LoginAction(self.driver).login(
@@ -42,7 +42,7 @@ class TestLeaveEntitlement:
         action = AddLeaveEntitlementActions(self.driver)
 
         action.open_leave_page()
-
+        print(Entitlement," ",type(Entitlement))
         action.select_leave_type(LeaveType)
         action.enter_entitlement(Entitlement)
         action.save()

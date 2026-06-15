@@ -8,3 +8,156 @@
 2026-06-12 14:41:56 PM - INFO - Login to the application
 2026-06-12 14:43:33 PM - INFO - Login to the application
 2026-06-12 14:44:42 PM - INFO - Login to the application
+2026-06-15 11:53:06 AM - INFO - Click Leave menu
+2026-06-15 11:53:06 AM - INFO - click Add entitlement Menu
+2026-06-15 11:53:07 AM - INFO - Click Add entitlement sub menu
+2026-06-15 11:53:08 AM - INFO - Entering employee name: Ravi M B
+2026-06-15 11:53:18 AM - INFO - Wait for invisibility of searching text
+2026-06-15 11:53:30 AM - INFO - Click Leave menu
+2026-06-15 11:53:31 AM - INFO - click Add entitlement Menu
+2026-06-15 11:53:34 AM - INFO - Click Add entitlement sub menu
+2026-06-15 11:53:35 AM - INFO - Entering employee name: Ravi M B
+2026-06-15 11:53:45 AM - INFO - Wait for invisibility of searching text
+2026-06-15 11:53:59 AM - INFO - Click Leave menu
+2026-06-15 11:54:00 AM - INFO - click Add entitlement Menu
+2026-06-15 11:54:03 AM - INFO - Click Add entitlement sub menu
+2026-06-15 11:54:04 AM - INFO - Selecting leave type
+2026-06-15 11:54:05 AM - INFO - Selected leave type is: CAN - Personal
+2026-06-15 11:54:05 AM - INFO - Entering leave entitlement days 20
+2026-06-15 11:54:05 AM - INFO - Click on save button
+2026-06-15 11:54:05 AM - INFO - Required message for empty employee name field
+2026-06-15 11:54:24 AM - INFO - Click Leave menu
+2026-06-15 11:54:25 AM - INFO - click Add entitlement Menu
+2026-06-15 11:54:28 AM - INFO - Click Add entitlement sub menu
+2026-06-15 11:54:29 AM - INFO - Entering employee name: Ravi M B
+2026-06-15 11:54:39 AM - INFO - Wait for invisibility of searching text
+2026-06-15 11:54:56 AM - INFO - Click Leave menu
+2026-06-15 11:54:56 AM - INFO - click Add entitlement Menu
+2026-06-15 11:54:58 AM - INFO - Click Add entitlement sub menu
+2026-06-15 11:54:59 AM - INFO - Entering employee name: Myl
+2026-06-15 11:55:09 AM - INFO - Wait for invisibility of searching text
+2026-06-15 14:13:41 PM - INFO - Clicked Leave menu
+2026-06-15 14:13:42 PM - INFO - clicked Add entitlement Menu
+2026-06-15 14:13:43 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 14:13:43 PM - INFO - Entering employee name: Ravi M B
+2026-06-15 14:13:53 PM - INFO - Wait for invisibility of searching text
+2026-06-15 14:14:03 PM - INFO - Clicked Leave menu
+2026-06-15 14:14:04 PM - INFO - clicked Add entitlement Menu
+2026-06-15 14:14:05 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 14:14:05 PM - INFO - Entering employee name: Ravi M B
+2026-06-15 14:14:15 PM - INFO - Wait for invisibility of searching text
+2026-06-15 14:14:25 PM - INFO - Clicked Leave menu
+2026-06-15 14:14:26 PM - INFO - clicked Add entitlement Menu
+2026-06-15 14:14:27 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 14:14:28 PM - INFO - Selecting leave type
+2026-06-15 14:14:28 PM - INFO - Selected leave type is: CAN - Personal
+2026-06-15 14:14:29 PM - INFO - Entering leave entitlement days 20
+2026-06-15 14:14:29 PM - INFO - Click on save button
+2026-06-15 14:14:29 PM - INFO - Required message for empty employee name field
+2026-06-15 14:14:41 PM - INFO - Clicked Leave menu
+2026-06-15 14:14:41 PM - INFO - clicked Add entitlement Menu
+2026-06-15 14:14:42 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 14:14:43 PM - INFO - Entering employee name: Ravi M B
+2026-06-15 14:14:53 PM - INFO - Wait for invisibility of searching text
+2026-06-15 14:15:05 PM - INFO - Clicked Leave menu
+2026-06-15 14:15:05 PM - INFO - clicked Add entitlement Menu
+2026-06-15 14:15:06 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 14:15:06 PM - INFO - Entering employee name: Myl
+2026-06-15 14:15:16 PM - INFO - Wait for invisibility of searching text
+2026-06-15 14:15:16 PM - INFO - Getting No Records Found for invalid employee name
+2026-06-15 15:56:30 PM - INFO - Clicked Leave menu
+2026-06-15 15:56:30 PM - INFO - clicked Add entitlement Menu
+2026-06-15 15:56:31 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 15:56:32 PM - INFO - Entering employee name: Ravi M B
+2026-06-15 15:56:42 PM - INFO - Wait for invisibility of searching text
+2026-06-15 15:56:42 PM - INFO - Employee suggestion found: Searching....
+2026-06-15 15:56:42 PM - INFO - Selected Employee name: Ravi M B
+2026-06-15 15:56:42 PM - INFO - Selecting leave type
+2026-06-15 15:56:43 PM - INFO - Selected leave type is: CAN - Personal
+2026-06-15 15:56:43 PM - INFO - Entering leave entitlement days 50
+2026-06-15 15:56:43 PM - INFO - Click on save button
+2026-06-15 15:57:25 PM - INFO - Clicked Leave menu
+2026-06-15 15:57:26 PM - INFO - clicked Add entitlement Menu
+2026-06-15 15:57:27 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 15:57:28 PM - INFO - Entering employee name: Ravi M B
+2026-06-15 15:57:38 PM - INFO - Wait for invisibility of searching text
+2026-06-15 15:57:38 PM - INFO - Employee suggestion found: Searching....
+2026-06-15 15:57:38 PM - INFO - Selected Employee name: Ravi M B
+2026-06-15 15:57:38 PM - INFO - Selecting leave type
+2026-06-15 15:57:38 PM - INFO - Selected leave type is: CAN - Vacation
+2026-06-15 15:57:38 PM - INFO - Entering leave entitlement days 60
+2026-06-15 15:57:38 PM - INFO - Click on save button
+2026-06-15 15:58:25 PM - INFO - Clicked Leave menu
+2026-06-15 15:58:26 PM - INFO - clicked Add entitlement Menu
+2026-06-15 15:58:29 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 15:58:31 PM - INFO - Selecting leave type
+2026-06-15 15:58:32 PM - INFO - Selected leave type is: CAN - Personal
+2026-06-15 15:58:32 PM - INFO - Entering leave entitlement days 20
+2026-06-15 15:58:33 PM - INFO - Click on save button
+2026-06-15 15:58:33 PM - INFO - Required message for empty employee name field
+2026-06-15 15:58:53 PM - INFO - Clicked Leave menu
+2026-06-15 15:58:54 PM - INFO - clicked Add entitlement Menu
+2026-06-15 15:58:57 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 15:58:59 PM - INFO - Entering employee name: Ravi M B
+2026-06-15 15:59:09 PM - INFO - Wait for invisibility of searching text
+2026-06-15 15:59:09 PM - INFO - Employee suggestion found: Searching....
+2026-06-15 15:59:09 PM - INFO - Selected Employee name: Ravi M B
+2026-06-15 15:59:09 PM - INFO - Selecting leave type
+2026-06-15 15:59:09 PM - INFO - Selected leave type is: CAN - Personal
+2026-06-15 15:59:10 PM - INFO - Entering leave entitlement days 10001
+2026-06-15 15:59:10 PM - INFO - Exceed error message for entering exceed leave entitlement days
+2026-06-15 15:59:39 PM - INFO - Clicked Leave menu
+2026-06-15 15:59:43 PM - INFO - clicked Add entitlement Menu
+2026-06-15 15:59:48 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 15:59:52 PM - INFO - Entering employee name: Myl
+2026-06-15 16:00:03 PM - INFO - Wait for invisibility of searching text
+2026-06-15 16:00:03 PM - INFO - Getting No Records Found for invalid employee name
+2026-06-15 16:00:42 PM - INFO - Clicked Leave menu
+2026-06-15 16:00:43 PM - INFO - clicked Add entitlement Menu
+2026-06-15 16:00:45 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 16:00:46 PM - INFO - Entering employee name: Teja  Sai
+2026-06-15 16:00:56 PM - INFO - Wait for invisibility of searching text
+2026-06-15 16:00:56 PM - INFO - Employee suggestion found: Searching....
+2026-06-15 16:00:56 PM - INFO - Selected Employee name: Teja  Sai
+2026-06-15 16:00:57 PM - INFO - Selecting leave type
+2026-06-15 16:00:57 PM - INFO - Selected leave type is: CAN - Personal
+2026-06-15 16:00:57 PM - INFO - Entering leave entitlement days 50
+2026-06-15 16:00:57 PM - INFO - Click on save button
+2026-06-15 16:00:58 PM - INFO - Getting Confirmation message for added leave entitlement
+2026-06-15 16:01:12 PM - INFO - Clicked Leave menu
+2026-06-15 16:01:13 PM - INFO - clicked Add entitlement Menu
+2026-06-15 16:01:16 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 16:01:17 PM - INFO - Entering employee name: Teja  Sai
+2026-06-15 16:01:27 PM - INFO - Wait for invisibility of searching text
+2026-06-15 16:01:27 PM - INFO - Employee suggestion found: Searching....
+2026-06-15 16:01:27 PM - INFO - Selected Employee name: Teja  Sai
+2026-06-15 16:01:27 PM - INFO - Selecting leave type
+2026-06-15 16:01:27 PM - INFO - Selected leave type is: CAN - Vacation
+2026-06-15 16:01:27 PM - INFO - Entering leave entitlement days 60
+2026-06-15 16:01:27 PM - INFO - Click on save button
+2026-06-15 16:01:28 PM - INFO - Getting Confirmation message for added leave entitlement
+2026-06-15 16:01:46 PM - INFO - Clicked Leave menu
+2026-06-15 16:01:47 PM - INFO - clicked Add entitlement Menu
+2026-06-15 16:01:51 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 16:01:53 PM - INFO - Selecting leave type
+2026-06-15 16:01:55 PM - INFO - Selected leave type is: CAN - Personal
+2026-06-15 16:01:55 PM - INFO - Entering leave entitlement days 20
+2026-06-15 16:01:55 PM - INFO - Click on save button
+2026-06-15 16:01:55 PM - INFO - Required message for empty employee name field
+2026-06-15 16:02:18 PM - INFO - Clicked Leave menu
+2026-06-15 16:02:19 PM - INFO - clicked Add entitlement Menu
+2026-06-15 16:02:22 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 16:02:24 PM - INFO - Entering employee name: Ravi M B
+2026-06-15 16:02:34 PM - INFO - Wait for invisibility of searching text
+2026-06-15 16:02:34 PM - INFO - Employee suggestion found: Searching....
+2026-06-15 16:02:34 PM - INFO - Selected Employee name: Ravi M B
+2026-06-15 16:02:34 PM - INFO - Selecting leave type
+2026-06-15 16:02:34 PM - INFO - Selected leave type is: CAN - Personal
+2026-06-15 16:02:34 PM - INFO - Entering leave entitlement days 10001
+2026-06-15 16:02:34 PM - INFO - Exceed error message for entering exceed leave entitlement days
+2026-06-15 16:02:48 PM - INFO - Clicked Leave menu
+2026-06-15 16:02:48 PM - INFO - clicked Add entitlement Menu
+2026-06-15 16:02:50 PM - INFO - Clicked  Add entitlement sub menu
+2026-06-15 16:02:50 PM - INFO - Entering employee name: Myl
+2026-06-15 16:03:00 PM - INFO - Wait for invisibility of searching text
+2026-06-15 16:03:00 PM - INFO - Getting No Records Found for invalid employee name
