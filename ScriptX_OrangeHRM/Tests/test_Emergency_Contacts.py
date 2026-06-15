@@ -1,5 +1,5 @@
 import pytest
-from Actions.EmergencyContactActions import EmergencyContactsAction
+from Actions.Emergency_Contact_Actions import EmergencyContactsAction
 from Actions.login_action import LoginAction
 from Utilities.Read_Config import get_config
 from Utilities.Excel_Reader import get_data
@@ -10,7 +10,7 @@ class TestEmergencyContacts:
 
     @pytest.mark.parametrize(
         "name, relationship, home_telephone, mobile, work_telephone",
-        get_data("ScriptX_OrangeHRM/Configurations/TestData.xlsx", "EmergencyContact")
+        get_data("Configurations/TestData.xlsx", "EmergencyContact")
     )
     def test_add_emergency_contact(self, name, relationship, home_telephone,
                                     mobile, work_telephone):

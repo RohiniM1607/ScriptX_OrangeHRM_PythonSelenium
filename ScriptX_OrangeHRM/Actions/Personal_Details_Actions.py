@@ -1,6 +1,6 @@
 import os
-from Pages.MyInfoPage import MyInfoPage
-from Pages.DashBoardPage import DashBoardPage
+from Pages.MyInfo_Page import MyInfoPage
+from Pages.DashBoard_Page import DashBoardPage
 from Actions.base_actions import BaseActions
 from Utilities.Read_Config import get_config
 from Utilities.log_creator import log_generator

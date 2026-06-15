@@ -1,5 +1,5 @@
 import pytest
-from Actions.ContactDetailsActions import ContactDetailsAction
+from Actions.Contact_Details_Actions import ContactDetailsAction
 from Actions.login_action import LoginAction
 from Utilities.Read_Config import get_config
 from Utilities.Excel_Reader  import get_contact_details_data

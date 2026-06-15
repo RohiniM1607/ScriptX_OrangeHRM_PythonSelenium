@@ -77,6 +77,14 @@ class BaseActions:
         self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
         self.driver.execute_script("arguments[0].click();", element)
 
+    def scroll_and_enter_text(self, locator, text):
+        element = self.wait.until(EC.element_to_be_clickable((By.XPATH, locator)))
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
+        self.driver.execute_script("arguments[0].click();", element)
+        element.send_keys(Keys.CONTROL + 'a')
+        element.send_keys(Keys.DELETE)
+        element.send_keys(text)
+
     def upload_file(self, locator, file_path):
         element = self.wait.until(EC.presence_of_element_located((By.XPATH, locator)))
         element.send_keys(file_path)

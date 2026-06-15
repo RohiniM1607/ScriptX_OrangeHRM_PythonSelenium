@@ -1,6 +1,6 @@
 import os
-from Pages.ContactDetailsPage import ContactDetailsPage
-from Pages.DashBoardPage import DashBoardPage
+from Pages.Contact_Details_Page import ContactDetailsPage
+from Pages.DashBoard_Page import DashBoardPage
 from Actions.base_actions import BaseActions
 from Utilities.Read_Config import get_config
 

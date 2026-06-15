@@ -1,5 +1,5 @@
 import pytest
-from Actions.PersonalDetailsActions import PersonalDetailsAction
+from Actions.Personal_Details_Actions import PersonalDetailsAction
 from Actions.login_action import LoginAction
 from Utilities.Read_Config import get_config
 

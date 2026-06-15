@@ -1,6 +1,6 @@
 import os
-from Pages.ProfilePicturePages import ProfilePicturePage
-from Pages.DashBoardPage import DashBoardPage
+from Pages.Profile_Picture_Page import ProfilePicturePage
+from Pages.DashBoard_Page import DashBoardPage
 from Actions.base_actions import BaseActions
 from Utilities.Read_Config import get_config
 
@@ -19,6 +19,10 @@ class ProfilePictureAction:
     def navigate_to_my_info(self):
         self.base.click_element(self.dashboard.lnk_my_info)
 
+    def click_profile_picture(self):
+        self.base.wait_for_element_invisible(self.page.load_spinner)
+        self.base.js_click(self.page.clk_profile)
+
     def click_add_icon(self):
         self.base.wait_for_element_invisible(self.page.load_spinner)
         self.base.js_click(self.page.btn_add_icon)
@@ -34,7 +38,8 @@ class ProfilePictureAction:
         return self.base.is_element_displayed(self.page.msg_success)
 
     def upload_and_verify(self):
-        self.click_add_icon()
-        self.upload_profile_picture()
-        self.save_profile_picture()
-        return self.verify_upload_success()
+        self.click_profile_picture()   
+        self.click_add_icon()           
+        self.upload_profile_picture() 
+        self.save_profile_picture()    
+        return self.verify_upload_success()  

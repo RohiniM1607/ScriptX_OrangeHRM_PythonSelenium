@@ -1,5 +1,5 @@
-from Pages.EmergencyContactPage import EmergencyContactsPage
-from Pages.DashBoardPage import DashBoardPage
+from Pages.Emergency_Contact_Page import EmergencyContactsPage
+from Pages.DashBoard_Page import DashBoardPage
 from Actions.base_actions import BaseActions
 from Utilities.Read_Config import get_config
 from Utilities.Excel_Reader import get_data
@@ -29,19 +29,19 @@ class EmergencyContactsAction:
         self.base.js_click(self.page.btn_add)
 
     def enter_name(self, name):
-        self.base.clear_and_enter_text(self.page.txt_name, name)
+        self.base.scroll_and_enter_text(self.page.txt_name, name)
 
     def enter_relationship(self, relationship):
-        self.base.clear_and_enter_text(self.page.txt_relationship, relationship)
+        self.base.scroll_and_enter_text(self.page.txt_relationship, relationship)
 
     def enter_home_telephone(self, home_telephone):
-        self.base.clear_and_enter_text(self.page.txt_home_telephone, home_telephone)
+        self.base.scroll_and_enter_text(self.page.txt_home_telephone, home_telephone)
 
     def enter_mobile(self, mobile):
-        self.base.clear_and_enter_text(self.page.txt_mobile, mobile)
+        self.base.scroll_and_enter_text(self.page.txt_mobile, mobile)
 
     def enter_work_telephone(self, work_telephone):
-        self.base.clear_and_enter_text(self.page.txt_work_telephone, work_telephone)
+        self.base.scroll_and_enter_text(self.page.txt_work_telephone, work_telephone)
 
     def fill_emergency_contact(self, name, relationship, home_telephone,
                                 mobile, work_telephone):

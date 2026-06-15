@@ -33,3 +33,12 @@
 2026-06-14 10:31:48 AM - INFO - Login to the application
 2026-06-14 10:33:07 AM - INFO - Login to the application
 2026-06-14 10:37:26 AM - INFO - Login to the application
+2026-06-15 11:27:47 AM - INFO - Starting test: test_employee_apply_leave
+2026-06-15 11:27:47 AM - INFO - Logging in as: Rajaa
+2026-06-15 11:27:48 AM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-06-15 11:27:48 AM - INFO - Logging in as: Rajaa
+2026-06-15 11:27:52 AM - INFO - Starting test: test_employee_leave_list_status
+2026-06-15 11:27:53 AM - INFO - Starting test: test_search_without_leave_type
+2026-06-15 11:27:53 AM - INFO - Logging in as: Rajaa
+2026-06-15 11:27:57 AM - INFO - Starting test: test_remaining_leave_balance
+2026-06-15 11:27:57 AM - INFO - Logging in as: Rajaa
