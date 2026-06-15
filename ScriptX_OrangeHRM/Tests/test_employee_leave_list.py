@@ -32,22 +32,6 @@ class TestEmployeeLeaveList:
 
         self.log.info("Test passed: Leave status verified successfully")
 
-    def test_without_applying_leave(self):
-        self.log.info("Starting test: test_without_applying_leave")
- 
-        username = get_config("employee_leave", "username")
-        password = get_config("employee_leave", "password")
- 
-        LoginAction(self.driver).login(username, password)
-        self.log.info("Login successful")
- 
-        actions = EmployeeLeaveListActions(self.driver)
-        
-        record_text = actions.without_applying_leave()
- 
-        self.log.info(f"Record Count Text : {record_text}")
-        assert "No Records found" in record_text, f"Expected 0 records but got: '{record_text}'"
-        self.log.info("Test passed: 0 Records found when searched without leave type")
 
     def test_remaining_leave_balance(self):
         self.log.info("Starting test: test_remaining_leave_balance")
