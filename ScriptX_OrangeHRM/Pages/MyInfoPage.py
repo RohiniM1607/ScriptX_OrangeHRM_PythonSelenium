@@ -12,7 +12,7 @@ class MyInfoPage:
     load_spinner           = "//div[contains(@class,'oxd-loading-spinner-container')]"
     blood_type             = "//label[text()='Blood Type']/following::div[contains(@class,'oxd-select-text')][1]"
     test_field             = "//label[text()='Test_Field']/following::input[1]"
-    btn1_save              = "(//button[normalize-space()='Save'])[1]"
+    btn1_save              = "//label[text() = 'Test_Field']//following::button[1]"
     msg1_success           = "//div[contains(@class,'oxd-toast')]//p[contains(@class,'oxd-text')]"
     btn_add_attachment     = "//button[@class='oxd-button oxd-button--medium oxd-button--text']"
     inp_file_upload        = "//input[@type='file']"

@@ -101,5 +101,5 @@ class PersonalDetailsAction:
         self.upload_attachment_file(os.path.abspath(get_config("personal details", "attachment_path1")))
         self.save_attachment()
 
-    def verify_file_size_message(self):
+    def verify_file_attachment(self):
         return self.base.is_element_displayed(self.page.file_size_exceed)
