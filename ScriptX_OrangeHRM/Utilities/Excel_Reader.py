@@ -48,3 +48,8 @@ def exceed_LeaveLimit(path, sheet_name):
 def get_filtered_data(path, sheet_name, filter_value):
     data = get_data(path, sheet_name)
     return [row[1:]   for row in data if row[0] == filter_value]
+
+def get_buzz_data(path, sheet_name):
+    data = get_data(path, sheet_name)
+    return [[row[0], row[1]] for row in data if row[0] is not None]
+
