@@ -35,14 +35,9 @@ class AddLeaveEntitlementActions:
     def select_employee_from_list(self, name):
         field = self.wait.until(EC.element_to_be_clickable(self.page.employee_name))
         field.send_keys(name)
-
-        emp_options = self.baseaction.wait_for_all_elements_visible(self.page.employee_options)
-
-        self.log.info(f"Employee suggestion found: {emp_options[0].text}")
-
+        empname = self.baseaction.wait_for_all_elements_visible(self.page.employee_options)
+        self.log.info(f"Selected Employee name is: {empname[0].text}")
         self.baseaction.press_down_and_enter(1)
-
-        self.log.info(f"Selected Employee name: {name}")
         #field.send_keys(Keys.ARROW_DOWN)
         #field.send_keys(Keys.ENTER)
 
