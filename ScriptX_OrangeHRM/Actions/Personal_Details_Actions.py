@@ -1,13 +1,10 @@
 import os
-import time
-from selenium.webdriver.common.keys import Keys
-
 from Pages.MyInfo_Page import MyInfoPage
 from Pages.DashBoard_Page import DashBoardPage
 from Actions.base_actions import BaseActions
 from Utilities.Read_Config import get_config
 from Utilities.log_creator import log_generator
-
+from selenium.webdriver.common.keys import Keys
 
 class PersonalDetailsAction:
 
@@ -35,12 +32,8 @@ class PersonalDetailsAction:
 
     def enter_license_expiry(self, license_expiry):
         self.base.wait_for_element_invisible(self.page.load_spinner)
-        self.base.clear_and_enter_text(self.page.txt_license_expiry, license_expiry)
-        try:
-            self.base.send_keys(self.page.txt_license_expiry, Keys.ESCAPE)
-        except:
-            element = self.driver.find_element(*self.page.txt_license_expiry)
-            element.send_keys(Keys.ESCAPE)
+        self.base.scroll_and_enter_text(self.page.txt_license_expiry, license_expiry)
+        self.base.press_escape(self.page.txt_license_expiry)
         self.logger.info(f"License expiry entered: {license_expiry}")
 
     def select_nationality(self, nationality):

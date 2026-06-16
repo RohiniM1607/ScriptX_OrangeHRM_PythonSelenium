@@ -96,3 +96,7 @@ class BaseActions:
     def wait_for_element_presence(self, locator_tuple, timeout=5):
         short_wait = WebDriverWait(self.driver, timeout)
         return short_wait.until(EC.presence_of_element_located(locator_tuple))    
+    
+    def press_escape(self, locator):
+        element = self.wait.until(EC.presence_of_element_located((By.XPATH, locator)))
+        element.send_keys(Keys.ESCAPE)
