@@ -24,14 +24,11 @@ class BaseActions:
 
     def enter_text_and_tab(self, locator_tuple, text):
         element = self.wait.until(EC.element_to_be_clickable(locator_tuple))
-        element.click()
-        element.send_keys(text)
-
-    def clear_text(self, locator):
-        element = self.wait.until(EC.visibility_of_element_located((By.XPATH, locator)))
+        element.click()     
         element.clear()
-    
-        element.send_keys(Keys.TAB)
+        element.send_keys(text)
+        #element.send_keys(Keys.TAB)
+
     def clear_and_enter_text(self, locator, text):
         element = self.wait.until(EC.element_to_be_clickable((By.XPATH, locator)))
         element.click()
@@ -65,6 +62,7 @@ class BaseActions:
 
     def wait_for_element_tuple(self, locator_tuple):
         return self.wait.until(EC.visibility_of_element_located(locator_tuple))
+    
     def wait_for_element_all(self, locator):
         return self.wait.until(EC.presence_of_all_elements_located((By.XPATH, locator)))
 
@@ -84,8 +82,8 @@ class BaseActions:
         active_element = self.driver.switch_to.active_element
         for _ in range(count):
             active_element.send_keys(Keys.ARROW_DOWN)
-        active_element.send_keys(Keys.ENTER)
+            active_element.send_keys(Keys.ENTER)
         
     def wait_for_element_presence(self, locator_tuple, timeout=5):
-     short_wait = WebDriverWait(self.driver, timeout)
-     return short_wait.until(EC.presence_of_element_located(locator_tuple))    
+        short_wait = WebDriverWait(self.driver, timeout)
+        return short_wait.until(EC.presence_of_element_located(locator_tuple))    
