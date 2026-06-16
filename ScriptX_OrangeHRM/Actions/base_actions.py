@@ -75,6 +75,14 @@ class BaseActions:
         self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
         self.driver.execute_script("arguments[0].click();", element)
 
+    def scroll_and_enter_text(self, locator, text):
+        element = self.wait.until(EC.element_to_be_clickable((By.XPATH, locator)))
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
+        self.driver.execute_script("arguments[0].click();", element)
+        element.send_keys(Keys.CONTROL + 'a')
+        element.send_keys(Keys.DELETE)
+        element.send_keys(text)
+
     def upload_file(self, locator, file_path):
         element = self.wait.until(EC.presence_of_element_located((By.XPATH, locator)))
         element.send_keys(file_path)
@@ -88,3 +96,7 @@ class BaseActions:
     def wait_for_element_presence(self, locator_tuple, timeout=5):
         short_wait = WebDriverWait(self.driver, timeout)
         return short_wait.until(EC.presence_of_element_located(locator_tuple))    
+    
+    def press_escape(self, locator):
+        element = self.wait.until(EC.presence_of_element_located((By.XPATH, locator)))
+        element.send_keys(Keys.ESCAPE)

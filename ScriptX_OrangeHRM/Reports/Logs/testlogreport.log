@@ -54,3 +54,12 @@
 2026-06-14 19:34:54 PM - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50199): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/c1f09fef3d9d7f23def05c572f82ab85
 2026-06-14 19:35:38 PM - INFO - Login to the application
 2026-06-14 19:39:19 PM - INFO - Login to the application
+2026-06-15 11:27:47 AM - INFO - Starting test: test_employee_apply_leave
+2026-06-15 11:27:47 AM - INFO - Logging in as: Rajaa
+2026-06-15 11:27:48 AM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-06-15 11:27:48 AM - INFO - Logging in as: Rajaa
+2026-06-15 11:27:52 AM - INFO - Starting test: test_employee_leave_list_status
+2026-06-15 11:27:53 AM - INFO - Starting test: test_search_without_leave_type
+2026-06-15 11:27:53 AM - INFO - Logging in as: Rajaa
+2026-06-15 11:27:57 AM - INFO - Starting test: test_remaining_leave_balance
+2026-06-15 11:27:57 AM - INFO - Logging in as: Rajaa

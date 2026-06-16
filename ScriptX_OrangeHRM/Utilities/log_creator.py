@@ -1,11 +1,15 @@
 import logging
+import os
 
 def log_generator():
+    log_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Reports", "Logs")
+    os.makedirs(log_dir, exist_ok=True)
+
     logging.basicConfig(
-        filename="Reports/Logs/testlogreport.log",
+        filename=os.path.join(log_dir, "testlogreport.log"),
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S %p',
-        force= True
+        force=True
     )
     return logging.getLogger()
