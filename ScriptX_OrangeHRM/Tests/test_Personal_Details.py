@@ -3,7 +3,6 @@ from Actions.Personal_Details_Actions import PersonalDetailsAction
 from Actions.login_action import LoginAction
 from Utilities.Read_Config import get_config
 
-
 @pytest.mark.usefixtures("setup_and_teardown")
 class TestPersonalDetails:
 
