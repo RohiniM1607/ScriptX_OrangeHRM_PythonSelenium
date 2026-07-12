@@ -42,8 +42,7 @@ class CreateUserCredentialActions:
             self.base.press_down_and_enter(2)
 
     def enter_username(self, username, handle_duplicate):
-        self.base.clear_text(self.page.user_name)
-        self.base.enter_text(self.page.user_name, username)
+        self.base.clear_and_enter_text(self.page.user_name, username)
 
         if handle_duplicate:
             try:
@@ -51,14 +50,12 @@ class CreateUserCredentialActions:
 
                 username = f"{username}{random.randint(1000, 9999)}"
 
-                self.base.clear_text(self.page.user_name)
-                self.base.enter_text(self.page.user_name, username)
+                self.base.clear_and_enter_text(self.page.user_name, username)
 
             except Exception:
                 pass
 
-        time.sleep(2)
-                
+        time.sleep(2)                
     def enter_password(self, password):
         self.base.enter_text(self.page.password,password)
 
