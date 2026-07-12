@@ -5,7 +5,7 @@ from Actions.login_action import LoginAction
 from Utilities.Read_Config import get_config
 
 data = CSVReader.get_data(
-    "Configurations/TestDataCSV.csv"
+    "ScriptX_OrangeHRM/Configurations/TestDataCSV.csv"
 )
 
 
