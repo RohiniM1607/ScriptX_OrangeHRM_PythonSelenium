@@ -245,3 +245,46 @@
 2026-07-07 08:43:32 AM - INFO - Entering employee name: Myl
 2026-07-07 08:43:32 AM - INFO - Wait for invisibility of searching text
 2026-07-07 08:43:32 AM - INFO - Getting Searching.... for invalid employee name
+2026-07-10 08:05:55 AM - INFO - Login to the application
+2026-07-10 08:06:20 AM - INFO - Login to the application
+2026-07-10 08:09:04 AM - INFO - Login to the application
+2026-07-10 08:14:26 AM - INFO - Login to the application
+2026-07-10 08:17:18 AM - INFO - Login to the application
+2026-07-10 08:19:10 AM - INFO - Login to the application
+2026-07-10 08:22:25 AM - INFO - Login to the application
+2026-07-10 08:25:32 AM - INFO - Login to the application
+2026-07-10 08:26:05 AM - INFO - Login to the application
+2026-07-10 08:26:35 AM - INFO - Login to the application
+2026-07-10 08:27:24 AM - INFO - Login to the application
+2026-07-10 08:34:00 AM - INFO - Creating Admin User
+2026-07-10 08:34:34 AM - INFO - Creating Admin User
+2026-07-10 08:35:05 AM - INFO - Creating Admin User
+2026-07-10 08:35:53 AM - INFO - Creating Admin User
+2026-07-12 17:38:23 PM - INFO - Login to the application
+2026-07-12 17:39:13 PM - INFO - Login to the application
+2026-07-12 17:43:23 PM - INFO - Login to the application
+2026-07-12 17:44:40 PM - INFO - Login to the application
+2026-07-12 17:46:17 PM - INFO - Login to the application
+2026-07-12 17:47:22 PM - INFO - Login to the application
+2026-07-12 17:51:32 PM - INFO - Login to the application
+2026-07-12 17:52:07 PM - INFO - Login to the application
+2026-07-12 17:52:36 PM - INFO - Login to the application
+2026-07-12 17:53:26 PM - INFO - Login to the application
+2026-07-12 17:54:18 PM - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55095): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/edf830693169e1b381356e73c36b73bf
+2026-07-12 17:54:22 PM - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55095): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/edf830693169e1b381356e73c36b73bf
+2026-07-12 17:54:26 PM - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55095): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/edf830693169e1b381356e73c36b73bf
+2026-07-12 17:55:07 PM - INFO - Login to the application
+2026-07-12 17:55:45 PM - INFO - Login to the application
+2026-07-12 17:56:23 PM - INFO - Login to the application
+2026-07-12 17:57:09 PM - INFO - Login to the application
+2026-07-12 18:02:30 PM - INFO - Login to the application
+2026-07-12 19:44:02 PM - WARNING - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+2026-07-12 19:44:02 PM - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2026-07-12 19:44:05 PM - WARNING - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+2026-07-12 19:44:08 PM - WARNING - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+2026-07-12 19:44:12 PM - WARNING - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+2026-07-12 19:50:48 PM - INFO - Login to the application
+2026-07-12 19:51:12 PM - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59601): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/84ce9e1dab13237e3a4f4d8cf5a09b35
+2026-07-12 19:51:16 PM - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59601): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/84ce9e1dab13237e3a4f4d8cf5a09b35
+2026-07-12 19:51:20 PM - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59601): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/84ce9e1dab13237e3a4f4d8cf5a09b35
+2026-07-12 19:58:18 PM - INFO - Login to the application
