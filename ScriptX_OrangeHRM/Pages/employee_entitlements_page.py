@@ -12,7 +12,7 @@ class EmployeeEntitlementPage:
     leave_type = "(//div[@class='oxd-select-text-input'])[1]"
     leave_period = "(//div[@class='oxd-select-text-input'])[2]"
     search_button = "//button[@type='submit']"
-    search_result = "//div[@class='orangehrm-container']"
+    search_result = "//div[@class='oxd-table-body']"
     invalid_validation_msg = "//span[text()='Invalid']"
     required_validation_msg = "//span[text()='Required']"
     employee_name_required_msg = "//label[text()='Employee Name']/ancestor::div[contains(@class,'oxd-input-group')]//span[contains(@class,'oxd-input-field-error-message')]"
