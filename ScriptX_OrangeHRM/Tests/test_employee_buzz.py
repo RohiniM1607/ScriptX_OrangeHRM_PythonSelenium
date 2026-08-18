@@ -41,7 +41,7 @@ class TestBuzz:
         [
             row[0]
             for row in Excel_Reader.get_buzz_data(
-                "Configurations/TestData.xlsx",
+                "ScriptX_OrangeHRM/Configurations/TestData.xlsx",
                 "BuzzDetails"
             )
         ],
