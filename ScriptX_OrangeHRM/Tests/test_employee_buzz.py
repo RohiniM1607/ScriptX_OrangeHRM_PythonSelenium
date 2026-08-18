@@ -95,7 +95,7 @@ class TestBuzz:
         [
             (row[0], row[1])
             for row in Excel_Reader.get_buzz_data(
-                "Configurations/TestData.xlsx",
+                "ScriptX_OrangeHRM/Configurations/TestData.xlsx",
                 "BuzzDetails"
             )
         ],
@@ -116,8 +116,6 @@ class TestBuzz:
 
         actions.navigate_to_buzz_page()
 
-        # Create the post inside this test.
-        # This keeps the edit test independent.
         self.log.info(
             f"Creating post before edit: {post_text}"
         )
@@ -126,17 +124,13 @@ class TestBuzz:
             post_text
         )
 
-        # Edit the newly created post.
         self.log.info(
             f"Editing post to: {edit_text}"
         )
 
-        actions.edit_latest_post(
-            edit_text
+        actions.edit_latest_post(     edit_text
         )
 
-        # edit_latest_post() waits for the edit dialog
-        # to close before this verification.
         actual_text = actions.get_latest_post_text()
 
         self.log.info(
@@ -149,6 +143,4 @@ class TestBuzz:
             f"but got '{actual_text}'"
         )
 
-        self.log.info(
-            "Edit post test passed"
-        )
+        self.log.info("Edit post test passed")
