@@ -42,7 +42,7 @@ class TestLeaveEntitlement:
         action = AddLeaveEntitlementActions(self.driver)
 
         action.open_leave_page()
-
+        print(Entitlement," ",type(Entitlement))
         action.select_leave_type(LeaveType)
         action.enter_entitlement(Entitlement)
         action.save()

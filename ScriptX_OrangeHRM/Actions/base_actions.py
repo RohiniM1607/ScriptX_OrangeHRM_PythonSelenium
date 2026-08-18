@@ -5,7 +5,6 @@ from selenium.webdriver.common.keys import Keys
 
 
 class BaseActions:
-
     def __init__(self, driver):
         self.driver = driver
         self.wait = WebDriverWait(driver, 25)
