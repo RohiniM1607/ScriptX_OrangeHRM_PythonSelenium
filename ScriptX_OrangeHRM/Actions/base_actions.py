@@ -36,6 +36,10 @@ class BaseActions:
         element.send_keys(Keys.DELETE)
         element.send_keys(text)
 
+    # def clear_text(self, locator):
+    #     element = self.wait.until(EC.element_to_be_clickable((By.XPATH, locator)))
+    #     element.clear()
+
     def is_element_displayed(self, locator):
         element = self.wait.until(EC.visibility_of_element_located((By.XPATH, locator)))
         return element.is_displayed()

@@ -17,8 +17,7 @@ class EmployeeEntitlementActions:
         self.base.wait_for_element(self.page.employee_entitlements_title)
 
     def enter_employee_name(self, employee_name):
-        self.base.clear_text(self.page.employee_name)
-        self.base.enter_text(self.page.employee_name, employee_name)
+        self.base.clear_and_enter_text(self.page.employee_name, employee_name)
 
         try:
             self.base.wait_for_element_all(self.page.employee_suggestion)
@@ -72,8 +71,7 @@ class EmployeeEntitlementActions:
         self.click_search()
 
     def search_invalid_employee(self,employee_name,leave_type,leave_period):
-        self.base.clear_text(self.page.employee_name)
-        self.base.enter_text(self.page.employee_name,employee_name)
+        self.base.clear_and_enter_text(self.page.employee_name, employee_name)
         ActionChains(self.driver).send_keys(Keys.TAB).perform()
         self.base.wait_for_element(self.page.invalid_validation_msg)
         self.select_leave_type(leave_type)
