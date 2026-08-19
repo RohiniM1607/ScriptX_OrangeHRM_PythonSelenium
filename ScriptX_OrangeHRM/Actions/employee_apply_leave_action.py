@@ -1,10 +1,6 @@
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import (
-    StaleElementReferenceException,
-    ElementClickInterceptedException,
-    TimeoutException,
-)
+from selenium.common.exceptions import ( StaleElementReferenceException, ElementClickInterceptedException, TimeoutException)
 
 from Pages.employee_apply_leave_page import EmployeeApplyLeavePage
 from Actions.base_actions import BaseActions
@@ -15,6 +11,27 @@ class EmployeeApplyLeaveActions(BaseActions):
     def __init__(self, driver):
         super().__init__(driver)
         self.page = EmployeeApplyLeavePage()
+
+    # ============================================================
+    # FORM LOADER
+    # ============================================================
+
+    def wait_for_form_loader(self):
+
+        try:
+            self.wait.until(
+                EC.invisibility_of_element_located(
+                    (
+                        "css selector",
+                        ".oxd-form-loader"
+                    )
+                )
+            )
+
+            return True
+
+        except TimeoutException:
+            return False
 
     # ============================================================
     # NAVIGATION
@@ -40,21 +57,77 @@ class EmployeeApplyLeaveActions(BaseActions):
             )
         )
 
+        self.wait_for_form_loader()
+
     # ============================================================
     # LEAVE TYPE
     # ============================================================
 
     def select_leave_type(self, leave_type_name):
 
+        # OrangeHRM displays a form loader while leave
+        # entitlement/details are being loaded.
+        self.wait_for_form_loader()
+
+        def click_leave_type(driver):
+
+            try:
+
+                # Always wait until the loader is gone before
+                # attempting to click the dropdown.
+                loader = driver.find_elements(
+                    "css selector",
+                    ".oxd-form-loader"
+                )
+
+                for item in loader:
+                    if item.is_displayed():
+                        return False
+
+                dropdown = driver.find_element(
+                    *self.page.leave_type_dropdown
+                )
+
+                if not dropdown.is_displayed():
+                    return False
+
+                if not dropdown.is_enabled():
+                    return False
+
+                driver.execute_script(
+                    "arguments[0].scrollIntoView({block:'center'});",
+                    dropdown
+                )
+
+                try:
+                    dropdown.click()
+
+                except ElementClickInterceptedException:
+                    return False
+
+                return True
+
+            except (
+                StaleElementReferenceException,
+                ElementClickInterceptedException,
+            ):
+                return False
+
         self.wait.until(
-            EC.element_to_be_clickable(
-                self.page.leave_type_dropdown
+            click_leave_type
+        )
+
+        # Wait for the dropdown options to appear.
+        self.wait.until(
+            EC.visibility_of_element_located(
+                self.page.leave_type_options
             )
-        ).click()
+        )
 
         def find_and_click_option(driver):
 
             try:
+
                 options = driver.find_elements(
                     *self.page.leave_type_options
                 )
@@ -78,6 +151,7 @@ class EmployeeApplyLeaveActions(BaseActions):
 
                         try:
                             option.click()
+
                         except (
                             StaleElementReferenceException,
                             ElementClickInterceptedException,
@@ -95,6 +169,29 @@ class EmployeeApplyLeaveActions(BaseActions):
             find_and_click_option
         )
 
+        # Wait until the selected value is visible in the dropdown.
+        def verify_selected_leave_type(driver):
+
+            try:
+
+                dropdown = driver.find_element(
+                    *self.page.leave_type_dropdown
+                )
+
+                selected_text = dropdown.text.strip()
+
+                return (
+                    leave_type_name.strip().lower()
+                    in selected_text.lower()
+                )
+
+            except StaleElementReferenceException:
+                return False
+
+        self.wait.until(
+            verify_selected_leave_type
+        )
+
     # ============================================================
     # DATE FIELD
     # ============================================================
@@ -105,9 +202,23 @@ class EmployeeApplyLeaveActions(BaseActions):
         date_value
     ):
 
+        # Make sure OrangeHRM has finished loading the form
+        # before entering the date.
+        self.wait_for_form_loader()
+
         def enter_date(driver):
 
             try:
+
+                # If the form loader is visible, retry.
+                loaders = driver.find_elements(
+                    "css selector",
+                    ".oxd-form-loader"
+                )
+
+                for loader in loaders:
+                    if loader.is_displayed():
+                        return False
 
                 element = driver.find_element(
                     *locator_tuple
@@ -124,25 +235,29 @@ class EmployeeApplyLeaveActions(BaseActions):
                     element
                 )
 
-                element.click()
+                try:
+                    element.click()
 
-                # Select existing date
+                except ElementClickInterceptedException:
+                    return False
+
+                # Select existing date.
                 element.send_keys(
                     Keys.CONTROL,
                     "a"
                 )
 
-                # Remove existing value
+                # Remove existing value.
                 element.send_keys(
                     Keys.BACKSPACE
                 )
 
-                # Enter new date
+                # Enter new date.
                 element.send_keys(
                     str(date_value)
                 )
 
-                # Trigger blur/change event
+                # Trigger blur/change event.
                 element.send_keys(
                     Keys.TAB
                 )
@@ -214,6 +329,8 @@ class EmployeeApplyLeaveActions(BaseActions):
         if not comment:
             return
 
+        self.wait_for_form_loader()
+
         element = self.wait.until(
             EC.element_to_be_clickable(
                 self.page.comments_textarea
@@ -245,6 +362,8 @@ class EmployeeApplyLeaveActions(BaseActions):
     # ============================================================
 
     def apply(self):
+
+        self.wait_for_form_loader()
 
         button = self.wait.until(
             EC.element_to_be_clickable(
@@ -316,30 +435,30 @@ class EmployeeApplyLeaveActions(BaseActions):
 
         self.navigate_to_apply_leave_page()
 
-        # Select Leave Type
+        # Select Leave Type.
         self.select_leave_type(
             leave_type
         )
 
-        # Enter From Date
+        # Enter From Date.
         self.enter_from_date(
             from_date
         )
 
-        # Enter To Date
+        # Enter To Date.
         self.enter_to_date(
             to_date
         )
 
-        # Enter Comments
+        # Enter Comments.
         self.enter_comments(
             comment
         )
 
-        # Click Apply
+        # Click Apply.
         self.apply()
 
-        # Check success message
+        # Check success message.
         return self.get_success_message_display()
 
     # ============================================================
@@ -354,23 +473,23 @@ class EmployeeApplyLeaveActions(BaseActions):
 
         self.navigate_to_apply_leave_page()
 
-        # Do not select Leave Type
+        # Do not select Leave Type.
 
-        # Enter From Date
+        # Enter From Date.
         self.enter_from_date(
             from_date
         )
 
-        # Enter To Date
+        # Enter To Date.
         if to_date:
             self.enter_to_date(
                 to_date
             )
 
-        # Click Apply
+        # Click Apply.
         self.apply()
 
-        # Verify Leave Type required error
+        # Verify Leave Type required error.
         try:
 
             error = self.wait.until(
