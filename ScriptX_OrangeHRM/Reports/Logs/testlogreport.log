@@ -67,3 +67,828 @@
 2026-06-15 00:14:07 AM - INFO - Remaining Leave Balance : 99.00
 2026-06-15 00:14:07 AM - INFO - Test passed: Leave balance is available. Remaining Leave Balance : 99.00
 
+2026-08-19 14:16:20 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 14:16:20 PM - INFO - Login successful
+2026-08-19 14:16:20 PM - INFO - Searching leave status for leave type: CAN - Personal
+2026-08-19 14:17:01 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 14:17:01 PM - INFO - Logging in as: Rajaa
+2026-08-19 14:17:02 PM - INFO - Login successful
+2026-08-19 14:17:02 PM - INFO - Fetching leave balance for leave type: CAN - Personal
+2026-08-19 14:18:54 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 14:18:55 PM - INFO - Login successful
+2026-08-19 14:18:55 PM - INFO - Searching leave status for leave type: CAN - Personal
+2026-08-19 14:19:59 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 14:19:59 PM - INFO - Logging in as: Rajaa
+2026-08-19 14:19:59 PM - INFO - Login successful
+2026-08-19 14:19:59 PM - INFO - Fetching leave balance for leave type: CAN - Personal
+2026-08-19 14:38:43 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 14:38:43 PM - INFO - Logging in as: Rajaa
+2026-08-19 14:38:45 PM - INFO - Login successful
+2026-08-19 14:38:45 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09
+2026-08-19 14:39:54 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 14:39:54 PM - INFO - Logging in as: Rajaa
+2026-08-19 14:39:56 PM - INFO - Login successful
+2026-08-19 14:39:56 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09
+2026-08-19 15:01:23 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 15:01:23 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:01:23 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 15:01:23 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:03:35 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 15:03:35 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:03:35 PM - INFO - Login successful
+2026-08-19 15:03:35 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:03:42 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 15:03:42 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:03:43 PM - INFO - Login successful
+2026-08-19 15:03:43 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:11:23 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 15:11:23 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:11:23 PM - INFO - Login successful
+2026-08-19 15:11:23 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:12:20 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 15:12:20 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:12:21 PM - INFO - Login successful
+2026-08-19 15:12:21 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:25:37 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 15:25:37 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:25:37 PM - INFO - Login successful
+2026-08-19 15:25:37 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:26:34 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 15:26:34 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:26:34 PM - INFO - Login successful
+2026-08-19 15:26:34 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:28:02 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 15:28:02 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:28:02 PM - INFO - Login successful
+2026-08-19 15:28:02 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:28:55 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 15:28:55 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:28:57 PM - INFO - Login successful
+2026-08-19 15:28:57 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:30:41 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 15:30:41 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:30:42 PM - INFO - Login successful
+2026-08-19 15:30:42 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:31:23 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 15:31:23 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:31:25 PM - INFO - Login successful
+2026-08-19 15:31:25 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:34:21 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 15:34:21 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:34:23 PM - INFO - Login successful
+2026-08-19 15:34:23 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:35:24 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 15:35:24 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:35:26 PM - INFO - Login successful
+2026-08-19 15:35:26 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:39:44 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 15:39:44 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:39:46 PM - INFO - Login successful
+2026-08-19 15:39:46 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:40:44 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 15:40:44 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:40:44 PM - INFO - Login successful
+2026-08-19 15:40:44 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-10-09 | To: 2026-10-09
+2026-08-19 15:43:58 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 15:43:58 PM - INFO - Username   : Rajaa
+2026-08-19 15:43:58 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 15:43:58 PM - INFO - From Date  : 2026-10-09
+2026-08-19 15:43:58 PM - INFO - To Date    : 2026-10-09
+2026-08-19 15:43:58 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:43:59 PM - INFO - Login successful
+2026-08-19 15:43:59 PM - INFO - Creating leave for Leave List test
+2026-08-19 15:43:59 PM - INFO - [Leave List] ========================================
+2026-08-19 15:43:59 PM - INFO - [Leave List] Starting leave creation
+2026-08-19 15:43:59 PM - INFO - [Leave List] Leave Type : CAN - Personal
+2026-08-19 15:43:59 PM - INFO - [Leave List] From Date  : 2026-10-09
+2026-08-19 15:43:59 PM - INFO - [Leave List] To Date    : 2026-10-09
+2026-08-19 15:43:59 PM - INFO - [Leave List] Navigating to Apply Leave page
+2026-08-19 15:44:15 PM - INFO - [Leave List] Apply Leave page opened
+2026-08-19 15:44:15 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 15:44:25 PM - INFO - [Leave List] Leave type selected
+2026-08-19 15:44:25 PM - INFO - [Leave List] Entering From Date: 2026-10-09
+2026-08-19 15:44:35 PM - INFO - [Leave List] From Date entered
+2026-08-19 15:44:35 PM - INFO - [Leave List] Entering To Date: 2026-10-09
+2026-08-19 15:45:06 PM - ERROR - [Leave List] Leave creation FAILED
+Traceback (most recent call last):
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_leave_list_action.py", line 150, in apply_leave_for_leave_list
+    self._apply_actions.enter_to_date(
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_apply_leave_action.py", line 32, in enter_to_date
+    self.enter_text_and_tab(self.page.to_date_input, to_date)
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\base_actions.py", line 27, in enter_text_and_tab
+    element = self.wait.until(EC.element_to_be_clickable(locator_tuple))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6587eabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6587eac10+15210]
+	chromedriver!(No symbol) [0x7ff658315d6d]
+	chromedriver!(No symbol) [0x7ff658371289]
+	chromedriver!(No symbol) [0x7ff65837158c]
+	chromedriver!(No symbol) [0x7ff6583c2027]
+	chromedriver!(No symbol) [0x7ff6583bec0b]
+	chromedriver!(No symbol) [0x7ff6583637cc]
+	chromedriver!(No symbol) [0x7ff6583646f3]
+	chromedriver!GetHandleVerifier [0x7ff658e0b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff658e05ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff658e2bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff658808ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff65881147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff6587f4d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff6587f4ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6587d7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffd07f6ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffd0978ad6c+2c]
+
+2026-08-19 15:45:13 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 15:45:13 PM - INFO - Username   : Rajaa
+2026-08-19 15:45:13 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 15:45:13 PM - INFO - From Date  : 2026-10-09
+2026-08-19 15:45:13 PM - INFO - To Date    : 2026-10-09
+2026-08-19 15:45:13 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:45:14 PM - INFO - Login successful
+2026-08-19 15:45:14 PM - INFO - Creating leave for balance test
+2026-08-19 15:45:14 PM - INFO - [Leave List] ========================================
+2026-08-19 15:45:14 PM - INFO - [Leave List] Starting leave creation
+2026-08-19 15:45:14 PM - INFO - [Leave List] Leave Type : CAN - Personal
+2026-08-19 15:45:14 PM - INFO - [Leave List] From Date  : 2026-10-09
+2026-08-19 15:45:14 PM - INFO - [Leave List] To Date    : 2026-10-09
+2026-08-19 15:45:14 PM - INFO - [Leave List] Navigating to Apply Leave page
+2026-08-19 15:45:32 PM - INFO - [Leave List] Apply Leave page opened
+2026-08-19 15:45:32 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 15:45:42 PM - INFO - [Leave List] Leave type selected
+2026-08-19 15:45:42 PM - INFO - [Leave List] Entering From Date: 2026-10-09
+2026-08-19 15:45:53 PM - INFO - [Leave List] From Date entered
+2026-08-19 15:45:53 PM - INFO - [Leave List] Entering To Date: 2026-10-09
+2026-08-19 15:46:24 PM - ERROR - [Leave List] Leave creation FAILED
+Traceback (most recent call last):
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_leave_list_action.py", line 150, in apply_leave_for_leave_list
+    self._apply_actions.enter_to_date(
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_apply_leave_action.py", line 32, in enter_to_date
+    self.enter_text_and_tab(self.page.to_date_input, to_date)
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\base_actions.py", line 27, in enter_text_and_tab
+    element = self.wait.until(EC.element_to_be_clickable(locator_tuple))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6587eabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6587eac10+15210]
+	chromedriver!(No symbol) [0x7ff658315d6d]
+	chromedriver!(No symbol) [0x7ff658371289]
+	chromedriver!(No symbol) [0x7ff65837158c]
+	chromedriver!(No symbol) [0x7ff6583c2027]
+	chromedriver!(No symbol) [0x7ff6583bec0b]
+	chromedriver!(No symbol) [0x7ff6583637cc]
+	chromedriver!(No symbol) [0x7ff6583646f3]
+	chromedriver!GetHandleVerifier [0x7ff658e0b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff658e05ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff658e2bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff658808ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff65881147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff6587f4d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff6587f4ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6587d7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffd07f6ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffd0978ad6c+2c]
+
+2026-08-19 15:47:52 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 15:47:52 PM - INFO - Username   : Rajaa
+2026-08-19 15:47:52 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 15:47:52 PM - INFO - From Date  : 2026-10-09
+2026-08-19 15:47:52 PM - INFO - To Date    : 2026-10-09
+2026-08-19 15:47:52 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:47:53 PM - INFO - Login successful
+2026-08-19 15:47:53 PM - INFO - Creating leave for Leave List test
+2026-08-19 15:47:53 PM - INFO - [Leave List] ========================================
+2026-08-19 15:47:53 PM - INFO - [Leave List] Starting leave creation
+2026-08-19 15:47:53 PM - INFO - [Leave List] Leave Type : CAN - Personal
+2026-08-19 15:47:53 PM - INFO - [Leave List] From Date  : 2026-10-09
+2026-08-19 15:47:53 PM - INFO - [Leave List] To Date    : 2026-10-09
+2026-08-19 15:47:53 PM - INFO - [Leave List] Navigating to Apply Leave page
+2026-08-19 15:48:09 PM - INFO - [Leave List] Apply Leave page opened
+2026-08-19 15:48:09 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 15:48:19 PM - INFO - [Leave List] Leave type selected
+2026-08-19 15:48:19 PM - INFO - [Leave List] Entering From Date: 2026-10-09
+2026-08-19 15:48:29 PM - INFO - [Leave List] From Date entered
+2026-08-19 15:48:29 PM - INFO - [Leave List] Waiting for To Date field
+2026-08-19 15:48:58 PM - INFO - [Leave List] To Date field is clickable
+2026-08-19 15:48:58 PM - INFO - [Leave List] Entering To Date: 2026-10-09
+2026-08-19 15:48:58 PM - INFO - [Leave List] To Date entered
+2026-08-19 15:48:58 PM - INFO - [Leave List] To Date field value: 2026-10-092026-10-09
+2026-08-19 15:48:58 PM - ERROR - [Leave List] To Date value was not entered correctly
+2026-08-19 15:48:58 PM - ERROR - [Leave List] Leave creation FAILED
+Traceback (most recent call last):
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_leave_list_action.py", line 207, in apply_leave_for_leave_list
+    raise AssertionError(
+AssertionError: Expected To Date '2026-10-09', but field contains '2026-10-092026-10-09'
+2026-08-19 15:49:08 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 15:49:08 PM - INFO - Username   : Rajaa
+2026-08-19 15:49:08 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 15:49:08 PM - INFO - From Date  : 2026-10-09
+2026-08-19 15:49:08 PM - INFO - To Date    : 2026-10-09
+2026-08-19 15:49:08 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:49:13 PM - INFO - Login successful
+2026-08-19 15:49:13 PM - INFO - Creating leave for balance test
+2026-08-19 15:49:13 PM - INFO - [Leave List] ========================================
+2026-08-19 15:49:13 PM - INFO - [Leave List] Starting leave creation
+2026-08-19 15:49:13 PM - INFO - [Leave List] Leave Type : CAN - Personal
+2026-08-19 15:49:13 PM - INFO - [Leave List] From Date  : 2026-10-09
+2026-08-19 15:49:13 PM - INFO - [Leave List] To Date    : 2026-10-09
+2026-08-19 15:49:13 PM - INFO - [Leave List] Navigating to Apply Leave page
+2026-08-19 15:49:50 PM - INFO - [Leave List] Apply Leave page opened
+2026-08-19 15:49:50 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 15:50:00 PM - INFO - [Leave List] Leave type selected
+2026-08-19 15:50:00 PM - INFO - [Leave List] Entering From Date: 2026-10-09
+2026-08-19 15:50:10 PM - INFO - [Leave List] From Date entered
+2026-08-19 15:50:10 PM - INFO - [Leave List] Waiting for To Date field
+2026-08-19 15:50:16 PM - INFO - [Leave List] To Date field is clickable
+2026-08-19 15:50:16 PM - INFO - [Leave List] Entering To Date: 2026-10-09
+2026-08-19 15:50:16 PM - INFO - [Leave List] To Date entered
+2026-08-19 15:50:16 PM - INFO - [Leave List] To Date field value: 2026-10-092026-10-09
+2026-08-19 15:50:16 PM - ERROR - [Leave List] To Date value was not entered correctly
+2026-08-19 15:50:16 PM - ERROR - [Leave List] Leave creation FAILED
+Traceback (most recent call last):
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_leave_list_action.py", line 207, in apply_leave_for_leave_list
+    raise AssertionError(
+AssertionError: Expected To Date '2026-10-09', but field contains '2026-10-092026-10-09'
+2026-08-19 15:53:38 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 15:53:38 PM - INFO - Username   : Rajaa
+2026-08-19 15:53:38 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 15:53:38 PM - INFO - From Date  : 2026-10-09
+2026-08-19 15:53:38 PM - INFO - To Date    : 2026-10-09
+2026-08-19 15:53:38 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:53:41 PM - INFO - Login successful
+2026-08-19 15:53:41 PM - INFO - Creating leave for Leave List test
+2026-08-19 15:53:41 PM - INFO - [Leave List] ========================================
+2026-08-19 15:53:41 PM - INFO - [Leave List] Starting leave creation
+2026-08-19 15:53:41 PM - INFO - [Leave List] Leave Type : CAN - Personal
+2026-08-19 15:53:41 PM - INFO - [Leave List] From Date  : 2026-10-09
+2026-08-19 15:53:41 PM - INFO - [Leave List] To Date    : 2026-10-09
+2026-08-19 15:53:41 PM - INFO - [Leave List] Navigating to Apply Leave page
+2026-08-19 15:54:08 PM - INFO - [Leave List] Apply Leave page opened
+2026-08-19 15:54:08 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 15:54:18 PM - INFO - [Leave List] Leave type selected successfully
+2026-08-19 15:54:18 PM - INFO - [Leave List] Entering From Date: 2026-10-09
+2026-08-19 15:54:28 PM - INFO - [Leave List] From Date entered successfully
+2026-08-19 15:54:28 PM - INFO - [Leave List] Entering To Date: 2026-10-09
+2026-08-19 15:54:28 PM - INFO - [Leave List] Preparing to enter To Date: 2026-10-09
+2026-08-19 15:54:28 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 15:54:28 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 15:54:28 PM - INFO - [Leave List] Waiting for To Date input
+2026-08-19 15:54:28 PM - INFO - [Leave List] To Date element found
+2026-08-19 15:54:28 PM - INFO - [Leave List] Clicking To Date input
+2026-08-19 15:54:28 PM - INFO - [Leave List] To Date input clicked
+2026-08-19 15:54:28 PM - INFO - [Leave List] Clearing To Date input
+2026-08-19 15:54:28 PM - INFO - [Leave List] Entering To Date: 2026-10-09
+2026-08-19 15:54:28 PM - INFO - [Leave List] To Date value entered
+2026-08-19 15:54:28 PM - INFO - [Leave List] TAB pressed after To Date
+2026-08-19 15:54:28 PM - INFO - [Leave List] To Date entered successfully
+2026-08-19 15:54:28 PM - INFO - [Leave List] Preparing to click Apply button
+2026-08-19 15:54:28 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 15:54:28 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 15:54:28 PM - INFO - [Leave List] Date picker closed
+2026-08-19 15:54:28 PM - INFO - [Leave List] Waiting for Apply button
+2026-08-19 15:54:28 PM - INFO - [Leave List] Apply button is clickable
+2026-08-19 15:54:28 PM - INFO - [Leave List] Apply button scrolled into view
+2026-08-19 15:54:28 PM - INFO - [Leave List] Apply button clicked successfully
+2026-08-19 15:54:28 PM - INFO - [Leave List] Waiting for success message
+2026-08-19 15:54:38 PM - ERROR - [Leave List] Leave creation FAILED
+Traceback (most recent call last):
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_leave_list_action.py", line 440, in apply_leave_for_leave_list
+    .get_success_message_display()
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_apply_leave_action.py", line 46, in get_success_message_display
+    element = self.wait_for_element_presence(self.page.success_msg)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\base_actions.py", line 90, in wait_for_element_presence
+    return short_wait.until(EC.presence_of_element_located(locator_tuple))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6587eabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6587eac10+15210]
+	chromedriver!(No symbol) [0x7ff658315d6d]
+	chromedriver!(No symbol) [0x7ff658371289]
+	chromedriver!(No symbol) [0x7ff65837158c]
+	chromedriver!(No symbol) [0x7ff6583c2027]
+	chromedriver!(No symbol) [0x7ff6583bec0b]
+	chromedriver!(No symbol) [0x7ff6583637cc]
+	chromedriver!(No symbol) [0x7ff6583646f3]
+	chromedriver!GetHandleVerifier [0x7ff658e0b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff658e05ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff658e2bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff658808ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff65881147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff6587f4d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff6587f4ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6587d7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffd07f6ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffd0978ad6c+2c]
+
+2026-08-19 15:55:20 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 15:55:20 PM - INFO - Username   : Rajaa
+2026-08-19 15:55:20 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 15:55:20 PM - INFO - From Date  : 2026-10-09
+2026-08-19 15:55:20 PM - INFO - To Date    : 2026-10-09
+2026-08-19 15:55:20 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:55:31 PM - INFO - Login successful
+2026-08-19 15:55:31 PM - INFO - Creating leave for balance test
+2026-08-19 15:55:31 PM - INFO - [Leave List] ========================================
+2026-08-19 15:55:31 PM - INFO - [Leave List] Starting leave creation
+2026-08-19 15:55:31 PM - INFO - [Leave List] Leave Type : CAN - Personal
+2026-08-19 15:55:31 PM - INFO - [Leave List] From Date  : 2026-10-09
+2026-08-19 15:55:31 PM - INFO - [Leave List] To Date    : 2026-10-09
+2026-08-19 15:55:31 PM - INFO - [Leave List] Navigating to Apply Leave page
+2026-08-19 15:56:12 PM - INFO - [Leave List] Apply Leave page opened
+2026-08-19 15:56:12 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 15:56:22 PM - INFO - [Leave List] Leave type selected successfully
+2026-08-19 15:56:22 PM - INFO - [Leave List] Entering From Date: 2026-10-09
+2026-08-19 15:56:32 PM - INFO - [Leave List] From Date entered successfully
+2026-08-19 15:56:32 PM - INFO - [Leave List] Entering To Date: 2026-10-09
+2026-08-19 15:56:32 PM - INFO - [Leave List] Preparing to enter To Date: 2026-10-09
+2026-08-19 15:56:32 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 15:56:32 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 15:56:32 PM - INFO - [Leave List] Waiting for To Date input
+2026-08-19 15:56:32 PM - INFO - [Leave List] To Date element found
+2026-08-19 15:56:32 PM - INFO - [Leave List] Clicking To Date input
+2026-08-19 15:56:32 PM - INFO - [Leave List] To Date input clicked
+2026-08-19 15:56:32 PM - INFO - [Leave List] Clearing To Date input
+2026-08-19 15:56:32 PM - INFO - [Leave List] Entering To Date: 2026-10-09
+2026-08-19 15:56:32 PM - INFO - [Leave List] To Date value entered
+2026-08-19 15:56:32 PM - INFO - [Leave List] TAB pressed after To Date
+2026-08-19 15:56:32 PM - INFO - [Leave List] To Date entered successfully
+2026-08-19 15:56:32 PM - INFO - [Leave List] Preparing to click Apply button
+2026-08-19 15:56:32 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 15:56:32 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 15:56:32 PM - INFO - [Leave List] Date picker closed
+2026-08-19 15:56:32 PM - INFO - [Leave List] Waiting for Apply button
+2026-08-19 15:56:32 PM - INFO - [Leave List] Apply button is clickable
+2026-08-19 15:56:32 PM - INFO - [Leave List] Apply button scrolled into view
+2026-08-19 15:56:32 PM - INFO - [Leave List] Apply button clicked successfully
+2026-08-19 15:56:32 PM - INFO - [Leave List] Waiting for success message
+2026-08-19 15:56:42 PM - ERROR - [Leave List] Leave creation FAILED
+Traceback (most recent call last):
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_leave_list_action.py", line 440, in apply_leave_for_leave_list
+    .get_success_message_display()
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_apply_leave_action.py", line 46, in get_success_message_display
+    element = self.wait_for_element_presence(self.page.success_msg)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\base_actions.py", line 90, in wait_for_element_presence
+    return short_wait.until(EC.presence_of_element_located(locator_tuple))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6587eabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6587eac10+15210]
+	chromedriver!(No symbol) [0x7ff658315d6d]
+	chromedriver!(No symbol) [0x7ff658371289]
+	chromedriver!(No symbol) [0x7ff65837158c]
+	chromedriver!(No symbol) [0x7ff6583c2027]
+	chromedriver!(No symbol) [0x7ff6583bec0b]
+	chromedriver!(No symbol) [0x7ff6583637cc]
+	chromedriver!(No symbol) [0x7ff6583646f3]
+	chromedriver!GetHandleVerifier [0x7ff658e0b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff658e05ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff658e2bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff658808ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff65881147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff6587f4d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff6587f4ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6587d7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffd07f6ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffd0978ad6c+2c]
+
+2026-08-19 15:57:23 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 15:57:23 PM - INFO - Username   : Rajaa
+2026-08-19 15:57:23 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 15:57:23 PM - INFO - From Date  : 2026-11-09
+2026-08-19 15:57:23 PM - INFO - To Date    : 2026-11-09
+2026-08-19 15:57:23 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:57:25 PM - INFO - Login successful
+2026-08-19 15:57:25 PM - INFO - Creating leave for Leave List test
+2026-08-19 15:57:25 PM - INFO - [Leave List] ========================================
+2026-08-19 15:57:25 PM - INFO - [Leave List] Starting leave creation
+2026-08-19 15:57:25 PM - INFO - [Leave List] Leave Type : CAN - Personal
+2026-08-19 15:57:25 PM - INFO - [Leave List] From Date  : 2026-11-09
+2026-08-19 15:57:25 PM - INFO - [Leave List] To Date    : 2026-11-09
+2026-08-19 15:57:25 PM - INFO - [Leave List] Navigating to Apply Leave page
+2026-08-19 15:57:53 PM - INFO - [Leave List] Apply Leave page opened
+2026-08-19 15:57:53 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 15:58:03 PM - INFO - [Leave List] Leave type selected successfully
+2026-08-19 15:58:03 PM - INFO - [Leave List] Entering From Date: 2026-11-09
+2026-08-19 15:58:13 PM - INFO - [Leave List] From Date entered successfully
+2026-08-19 15:58:13 PM - INFO - [Leave List] Entering To Date: 2026-11-09
+2026-08-19 15:58:13 PM - INFO - [Leave List] Preparing to enter To Date: 2026-11-09
+2026-08-19 15:58:13 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 15:58:13 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 15:58:13 PM - INFO - [Leave List] Waiting for To Date input
+2026-08-19 15:58:13 PM - INFO - [Leave List] To Date element found
+2026-08-19 15:58:13 PM - INFO - [Leave List] Clicking To Date input
+2026-08-19 15:58:13 PM - INFO - [Leave List] To Date input clicked
+2026-08-19 15:58:13 PM - INFO - [Leave List] Clearing To Date input
+2026-08-19 15:58:13 PM - INFO - [Leave List] Entering To Date: 2026-11-09
+2026-08-19 15:58:13 PM - INFO - [Leave List] To Date value entered
+2026-08-19 15:58:13 PM - INFO - [Leave List] TAB pressed after To Date
+2026-08-19 15:58:13 PM - INFO - [Leave List] To Date entered successfully
+2026-08-19 15:58:13 PM - INFO - [Leave List] Preparing to click Apply button
+2026-08-19 15:58:13 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 15:58:13 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 15:58:13 PM - INFO - [Leave List] Date picker closed
+2026-08-19 15:58:13 PM - INFO - [Leave List] Waiting for Apply button
+2026-08-19 15:58:13 PM - INFO - [Leave List] Apply button is clickable
+2026-08-19 15:58:13 PM - INFO - [Leave List] Apply button scrolled into view
+2026-08-19 15:58:13 PM - INFO - [Leave List] Apply button clicked successfully
+2026-08-19 15:58:13 PM - INFO - [Leave List] Waiting for success message
+2026-08-19 15:58:16 PM - INFO - [Leave List] Success message displayed: True
+2026-08-19 15:58:16 PM - INFO - [Leave List] Leave creation completed successfully
+2026-08-19 15:58:16 PM - INFO - Leave applied successfully
+2026-08-19 15:58:16 PM - INFO - Searching for applied leave
+2026-08-19 15:58:16 PM - INFO - [Leave List] Searching leave type: CAN - Personal
+2026-08-19 15:58:16 PM - INFO - [Leave List] Navigating to My Leave page
+2026-08-19 15:58:17 PM - INFO - [Leave List] Leave menu clicked
+2026-08-19 15:58:18 PM - INFO - [Leave List] My Leave submenu clicked
+2026-08-19 15:58:29 PM - INFO - [Leave List] My Leave page loaded
+2026-08-19 15:58:29 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 15:58:39 PM - INFO - [Leave List] Leave type selected
+2026-08-19 15:58:39 PM - INFO - [Leave List] Clicking Search button
+2026-08-19 15:58:39 PM - INFO - [Leave List] Search button clicked
+2026-08-19 15:58:49 PM - INFO - [Leave List] Search completed
+2026-08-19 15:58:49 PM - INFO - [Leave List] Total table rows: 3
+2026-08-19 15:58:49 PM - INFO - [Leave List] Searching status for: CAN - Personal
+2026-08-19 15:58:49 PM - INFO - [Leave List] Found 'CAN - Personal' with status 'Pending Approval (1.00)'
+2026-08-19 15:58:49 PM - INFO - Leave status returned: Pending Approval (1.00)
+2026-08-19 15:58:49 PM - INFO - Employee Leave List status test passed
+2026-08-19 15:58:56 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 15:58:56 PM - INFO - Username   : Rajaa
+2026-08-19 15:58:56 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 15:58:56 PM - INFO - From Date  : 2026-11-09
+2026-08-19 15:58:56 PM - INFO - To Date    : 2026-11-09
+2026-08-19 15:58:56 PM - INFO - Logging in as: Rajaa
+2026-08-19 15:58:58 PM - INFO - Login successful
+2026-08-19 15:58:58 PM - INFO - Creating leave for balance test
+2026-08-19 15:58:58 PM - INFO - [Leave List] ========================================
+2026-08-19 15:58:58 PM - INFO - [Leave List] Starting leave creation
+2026-08-19 15:58:58 PM - INFO - [Leave List] Leave Type : CAN - Personal
+2026-08-19 15:58:58 PM - INFO - [Leave List] From Date  : 2026-11-09
+2026-08-19 15:58:58 PM - INFO - [Leave List] To Date    : 2026-11-09
+2026-08-19 15:58:58 PM - INFO - [Leave List] Navigating to Apply Leave page
+2026-08-19 15:59:30 PM - INFO - [Leave List] Apply Leave page opened
+2026-08-19 15:59:30 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 15:59:40 PM - INFO - [Leave List] Leave type selected successfully
+2026-08-19 15:59:40 PM - INFO - [Leave List] Entering From Date: 2026-11-09
+2026-08-19 15:59:50 PM - INFO - [Leave List] From Date entered successfully
+2026-08-19 15:59:50 PM - INFO - [Leave List] Entering To Date: 2026-11-09
+2026-08-19 15:59:50 PM - INFO - [Leave List] Preparing to enter To Date: 2026-11-09
+2026-08-19 15:59:50 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 15:59:50 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 15:59:50 PM - INFO - [Leave List] Waiting for To Date input
+2026-08-19 15:59:50 PM - INFO - [Leave List] To Date element found
+2026-08-19 15:59:50 PM - INFO - [Leave List] Clicking To Date input
+2026-08-19 15:59:50 PM - INFO - [Leave List] To Date input clicked
+2026-08-19 15:59:50 PM - INFO - [Leave List] Clearing To Date input
+2026-08-19 15:59:50 PM - INFO - [Leave List] Entering To Date: 2026-11-09
+2026-08-19 15:59:50 PM - INFO - [Leave List] To Date value entered
+2026-08-19 15:59:50 PM - INFO - [Leave List] TAB pressed after To Date
+2026-08-19 15:59:50 PM - INFO - [Leave List] To Date entered successfully
+2026-08-19 15:59:50 PM - INFO - [Leave List] Preparing to click Apply button
+2026-08-19 15:59:50 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 15:59:50 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 15:59:50 PM - INFO - [Leave List] Date picker closed
+2026-08-19 15:59:50 PM - INFO - [Leave List] Waiting for Apply button
+2026-08-19 15:59:50 PM - INFO - [Leave List] Apply button is clickable
+2026-08-19 15:59:50 PM - INFO - [Leave List] Apply button scrolled into view
+2026-08-19 15:59:50 PM - INFO - [Leave List] Apply button clicked successfully
+2026-08-19 15:59:50 PM - INFO - [Leave List] Waiting for success message
+2026-08-19 16:00:00 PM - ERROR - [Leave List] Leave creation FAILED
+Traceback (most recent call last):
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_leave_list_action.py", line 440, in apply_leave_for_leave_list
+    .get_success_message_display()
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_apply_leave_action.py", line 46, in get_success_message_display
+    element = self.wait_for_element_presence(self.page.success_msg)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\base_actions.py", line 90, in wait_for_element_presence
+    return short_wait.until(EC.presence_of_element_located(locator_tuple))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6587eabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6587eac10+15210]
+	chromedriver!(No symbol) [0x7ff658315d6d]
+	chromedriver!(No symbol) [0x7ff658371289]
+	chromedriver!(No symbol) [0x7ff65837158c]
+	chromedriver!(No symbol) [0x7ff6583c2027]
+	chromedriver!(No symbol) [0x7ff6583bec0b]
+	chromedriver!(No symbol) [0x7ff6583637cc]
+	chromedriver!(No symbol) [0x7ff6583646f3]
+	chromedriver!GetHandleVerifier [0x7ff658e0b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff658e05ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff658e2bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff658808ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff65881147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff6587f4d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff6587f4ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6587d7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffd07f6ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffd0978ad6c+2c]
+
+2026-08-19 16:02:50 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 16:02:50 PM - INFO - Username   : Rajaa
+2026-08-19 16:02:50 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 16:02:50 PM - INFO - From Date  : 2026-11-09
+2026-08-19 16:02:50 PM - INFO - To Date    : 2026-11-09
+2026-08-19 16:02:50 PM - INFO - Logging in as: Rajaa
+2026-08-19 16:02:51 PM - INFO - Login successful
+2026-08-19 16:02:51 PM - INFO - Creating leave for Leave List test
+2026-08-19 16:02:51 PM - INFO - [Leave List] ========================================
+2026-08-19 16:02:51 PM - INFO - [Leave List] Starting leave creation
+2026-08-19 16:02:51 PM - INFO - [Leave List] Leave Type : CAN - Personal
+2026-08-19 16:02:51 PM - INFO - [Leave List] From Date  : 2026-11-09
+2026-08-19 16:02:51 PM - INFO - [Leave List] To Date    : 2026-11-09
+2026-08-19 16:02:51 PM - INFO - [Leave List] Navigating to Apply Leave page
+2026-08-19 16:03:09 PM - INFO - [Leave List] Apply Leave page opened
+2026-08-19 16:03:09 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 16:03:19 PM - INFO - [Leave List] Leave type selected successfully
+2026-08-19 16:03:19 PM - INFO - [Leave List] Entering From Date: 2026-11-09
+2026-08-19 16:03:29 PM - INFO - [Leave List] From Date entered successfully
+2026-08-19 16:03:29 PM - INFO - [Leave List] Entering To Date: 2026-11-09
+2026-08-19 16:03:29 PM - INFO - [Leave List] Preparing to enter To Date: 2026-11-09
+2026-08-19 16:03:29 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 16:03:29 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 16:03:29 PM - INFO - [Leave List] Waiting for To Date input
+2026-08-19 16:03:29 PM - INFO - [Leave List] To Date element found
+2026-08-19 16:03:29 PM - INFO - [Leave List] Clicking To Date input
+2026-08-19 16:03:29 PM - INFO - [Leave List] To Date input clicked
+2026-08-19 16:03:29 PM - INFO - [Leave List] Clearing To Date input
+2026-08-19 16:03:29 PM - INFO - [Leave List] Entering To Date: 2026-11-09
+2026-08-19 16:03:29 PM - INFO - [Leave List] To Date value entered
+2026-08-19 16:03:29 PM - INFO - [Leave List] TAB pressed after To Date
+2026-08-19 16:03:29 PM - INFO - [Leave List] To Date entered successfully
+2026-08-19 16:03:29 PM - INFO - [Leave List] Preparing to click Apply button
+2026-08-19 16:03:29 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 16:03:29 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 16:03:29 PM - INFO - [Leave List] Date picker closed
+2026-08-19 16:03:29 PM - INFO - [Leave List] Waiting for Apply button
+2026-08-19 16:03:29 PM - INFO - [Leave List] Apply button is clickable
+2026-08-19 16:03:29 PM - INFO - [Leave List] Apply button scrolled into view
+2026-08-19 16:03:29 PM - INFO - [Leave List] Apply button clicked successfully
+2026-08-19 16:03:29 PM - INFO - [Leave List] Waiting for success message
+2026-08-19 16:03:32 PM - ERROR - [Leave List] Leave creation FAILED
+Traceback (most recent call last):
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_leave_list_action.py", line 440, in apply_leave_for_leave_list
+    .get_success_message_display()
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_apply_leave_action.py", line 46, in get_success_message_display
+    element = self.wait_for_element_presence(self.page.success_msg)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\base_actions.py", line 90, in wait_for_element_presence
+    return short_wait.until(EC.presence_of_element_located(locator_tuple))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\support\expected_conditions.py", line 92, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\remote\webdriver.py", line 868, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\remote\webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=151.0.7922.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6587eabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6587eac10+15210]
+	chromedriver!(No symbol) [0x7ff658315d6d]
+	chromedriver!(No symbol) [0x7ff658301c10]
+	chromedriver!(No symbol) [0x7ff658301b6c]
+	chromedriver!(No symbol) [0x7ff6583003c9]
+	chromedriver!(No symbol) [0x7ff658300f7f]
+	chromedriver!(No symbol) [0x7ff65831b656]
+	chromedriver!(No symbol) [0x7ff65831c19b]
+	chromedriver!(No symbol) [0x7ff658320c85]
+	chromedriver!(No symbol) [0x7ff658320d4f]
+	chromedriver!(No symbol) [0x7ff658370a0a]
+	chromedriver!(No symbol) [0x7ff65837158c]
+	chromedriver!(No symbol) [0x7ff6583c2027]
+	chromedriver!(No symbol) [0x7ff6583bec0b]
+	chromedriver!(No symbol) [0x7ff6583637cc]
+	chromedriver!(No symbol) [0x7ff6583646f3]
+	chromedriver!GetHandleVerifier [0x7ff658e0b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff658e05ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff658e2bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff658808ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff65881147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff6587f4d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff6587f4ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6587d7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffd07f6ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffd0978ad6c+2c]
+
+2026-08-19 16:03:37 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 16:03:37 PM - INFO - Username   : Rajaa
+2026-08-19 16:03:37 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 16:03:37 PM - INFO - From Date  : 2026-11-09
+2026-08-19 16:03:37 PM - INFO - To Date    : 2026-11-09
+2026-08-19 16:03:37 PM - INFO - Logging in as: Rajaa
+2026-08-19 16:03:55 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 16:03:55 PM - INFO - Username   : Rajaa
+2026-08-19 16:03:55 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 16:03:55 PM - INFO - From Date  : 2026-12-09
+2026-08-19 16:03:55 PM - INFO - To Date    : 2026-12-09
+2026-08-19 16:03:55 PM - INFO - Logging in as: Rajaa
+2026-08-19 16:03:55 PM - INFO - Login successful
+2026-08-19 16:03:55 PM - INFO - Creating leave for Leave List test
+2026-08-19 16:03:55 PM - INFO - [Leave List] ========================================
+2026-08-19 16:03:55 PM - INFO - [Leave List] Starting leave creation
+2026-08-19 16:03:55 PM - INFO - [Leave List] Leave Type : CAN - Personal
+2026-08-19 16:03:55 PM - INFO - [Leave List] From Date  : 2026-12-09
+2026-08-19 16:03:55 PM - INFO - [Leave List] To Date    : 2026-12-09
+2026-08-19 16:03:55 PM - INFO - [Leave List] Navigating to Apply Leave page
+2026-08-19 16:04:12 PM - INFO - [Leave List] Apply Leave page opened
+2026-08-19 16:04:12 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 16:04:22 PM - INFO - [Leave List] Leave type selected successfully
+2026-08-19 16:04:22 PM - INFO - [Leave List] Entering From Date: 2026-12-09
+2026-08-19 16:04:32 PM - INFO - [Leave List] From Date entered successfully
+2026-08-19 16:04:32 PM - INFO - [Leave List] Entering To Date: 2026-12-09
+2026-08-19 16:04:32 PM - INFO - [Leave List] Preparing to enter To Date: 2026-12-09
+2026-08-19 16:04:32 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 16:04:32 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 16:04:32 PM - INFO - [Leave List] Waiting for To Date input
+2026-08-19 16:04:32 PM - INFO - [Leave List] To Date element found
+2026-08-19 16:04:32 PM - INFO - [Leave List] Clicking To Date input
+2026-08-19 16:04:32 PM - INFO - [Leave List] To Date input clicked
+2026-08-19 16:04:32 PM - INFO - [Leave List] Clearing To Date input
+2026-08-19 16:04:32 PM - INFO - [Leave List] Entering To Date: 2026-12-09
+2026-08-19 16:04:32 PM - INFO - [Leave List] To Date value entered
+2026-08-19 16:04:32 PM - INFO - [Leave List] TAB pressed after To Date
+2026-08-19 16:04:32 PM - INFO - [Leave List] To Date entered successfully
+2026-08-19 16:04:32 PM - INFO - [Leave List] Preparing to click Apply button
+2026-08-19 16:04:32 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 16:04:32 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 16:04:32 PM - INFO - [Leave List] Date picker closed
+2026-08-19 16:04:32 PM - INFO - [Leave List] Waiting for Apply button
+2026-08-19 16:04:32 PM - INFO - [Leave List] Apply button is clickable
+2026-08-19 16:04:32 PM - INFO - [Leave List] Apply button scrolled into view
+2026-08-19 16:04:32 PM - INFO - [Leave List] Apply button clicked successfully
+2026-08-19 16:04:32 PM - INFO - [Leave List] Waiting for success message
+2026-08-19 16:04:37 PM - ERROR - [Leave List] Leave creation FAILED
+Traceback (most recent call last):
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_leave_list_action.py", line 440, in apply_leave_for_leave_list
+    .get_success_message_display()
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\employee_apply_leave_action.py", line 46, in get_success_message_display
+    element = self.wait_for_element_presence(self.page.success_msg)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ScriptX_OrangeHRM_PythonSelenium\ScriptX_OrangeHRM\Actions\base_actions.py", line 90, in wait_for_element_presence
+    return short_wait.until(EC.presence_of_element_located(locator_tuple))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\support\expected_conditions.py", line 92, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\remote\webdriver.py", line 868, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\remote\webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Subha Shree\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=151.0.7922.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6587eabb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff6587eac10+15210]
+	chromedriver!(No symbol) [0x7ff658315d6d]
+	chromedriver!(No symbol) [0x7ff658301c10]
+	chromedriver!(No symbol) [0x7ff658301b6c]
+	chromedriver!(No symbol) [0x7ff6583003c9]
+	chromedriver!(No symbol) [0x7ff658300f7f]
+	chromedriver!(No symbol) [0x7ff65831b656]
+	chromedriver!(No symbol) [0x7ff65831c19b]
+	chromedriver!(No symbol) [0x7ff658320c85]
+	chromedriver!(No symbol) [0x7ff658320d4f]
+	chromedriver!(No symbol) [0x7ff658370a0a]
+	chromedriver!(No symbol) [0x7ff65837158c]
+	chromedriver!(No symbol) [0x7ff6583c2027]
+	chromedriver!(No symbol) [0x7ff6583bec0b]
+	chromedriver!(No symbol) [0x7ff6583637cc]
+	chromedriver!(No symbol) [0x7ff6583646f3]
+	chromedriver!GetHandleVerifier [0x7ff658e0b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff658e05ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff658e2bcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff658808ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff65881147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff6587f4d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff6587f4ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff6587d7d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffd07f6ccb7+17]
+	ntdll!RtlUserThreadStart [0x7ffd0978ad6c+2c]
+
+2026-08-19 16:04:43 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 16:04:43 PM - INFO - Username   : Rajaa
+2026-08-19 16:04:43 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 16:04:43 PM - INFO - From Date  : 2026-14-09
+2026-08-19 16:04:43 PM - INFO - To Date    : 2026-14-09
+2026-08-19 16:04:43 PM - INFO - Logging in as: Rajaa
+2026-08-19 16:04:52 PM - INFO - Starting test: test_employee_leave_list_status
+2026-08-19 16:04:52 PM - INFO - Username   : Rajaa
+2026-08-19 16:04:52 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 16:04:52 PM - INFO - From Date  : 2026-14-09
+2026-08-19 16:04:52 PM - INFO - To Date    : 2026-14-09
+2026-08-19 16:04:52 PM - INFO - Logging in as: Rajaa
+2026-08-19 16:04:52 PM - INFO - Login successful
+2026-08-19 16:04:52 PM - INFO - Creating leave for Leave List test
+2026-08-19 16:04:52 PM - INFO - [Leave List] ========================================
+2026-08-19 16:04:52 PM - INFO - [Leave List] Starting leave creation
+2026-08-19 16:04:52 PM - INFO - [Leave List] Leave Type : CAN - Personal
+2026-08-19 16:04:52 PM - INFO - [Leave List] From Date  : 2026-14-09
+2026-08-19 16:04:52 PM - INFO - [Leave List] To Date    : 2026-14-09
+2026-08-19 16:04:52 PM - INFO - [Leave List] Navigating to Apply Leave page
+2026-08-19 16:05:11 PM - INFO - [Leave List] Apply Leave page opened
+2026-08-19 16:05:11 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 16:05:21 PM - INFO - [Leave List] Leave type selected successfully
+2026-08-19 16:05:21 PM - INFO - [Leave List] Entering From Date: 2026-14-09
+2026-08-19 16:05:31 PM - INFO - [Leave List] From Date entered successfully
+2026-08-19 16:05:31 PM - INFO - [Leave List] Entering To Date: 2026-14-09
+2026-08-19 16:05:31 PM - INFO - [Leave List] Preparing to enter To Date: 2026-14-09
+2026-08-19 16:05:31 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 16:05:31 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 16:05:31 PM - INFO - [Leave List] Waiting for To Date input
+2026-08-19 16:05:31 PM - INFO - [Leave List] To Date element found
+2026-08-19 16:05:31 PM - INFO - [Leave List] Clicking To Date input
+2026-08-19 16:05:31 PM - INFO - [Leave List] To Date input clicked
+2026-08-19 16:05:31 PM - INFO - [Leave List] Clearing To Date input
+2026-08-19 16:05:31 PM - INFO - [Leave List] Entering To Date: 2026-14-09
+2026-08-19 16:05:31 PM - INFO - [Leave List] To Date value entered
+2026-08-19 16:05:31 PM - INFO - [Leave List] TAB pressed after To Date
+2026-08-19 16:05:31 PM - INFO - [Leave List] To Date entered successfully
+2026-08-19 16:05:31 PM - INFO - [Leave List] Preparing to click Apply button
+2026-08-19 16:05:31 PM - INFO - [Leave List] Attempting to close date picker
+2026-08-19 16:05:31 PM - INFO - [Leave List] ESC sent successfully
+2026-08-19 16:05:31 PM - INFO - [Leave List] Date picker closed
+2026-08-19 16:05:31 PM - INFO - [Leave List] Waiting for Apply button
+2026-08-19 16:05:31 PM - INFO - [Leave List] Apply button is clickable
+2026-08-19 16:05:31 PM - INFO - [Leave List] Apply button scrolled into view
+2026-08-19 16:05:31 PM - INFO - [Leave List] Apply button clicked successfully
+2026-08-19 16:05:31 PM - INFO - [Leave List] Waiting for success message
+2026-08-19 16:05:33 PM - INFO - [Leave List] Success message displayed: True
+2026-08-19 16:05:33 PM - INFO - [Leave List] Leave creation completed successfully
+2026-08-19 16:05:33 PM - INFO - Leave applied successfully
+2026-08-19 16:05:33 PM - INFO - Searching for applied leave
+2026-08-19 16:05:33 PM - INFO - [Leave List] Searching leave type: CAN - Personal
+2026-08-19 16:05:33 PM - INFO - [Leave List] Navigating to My Leave page
+2026-08-19 16:05:35 PM - INFO - [Leave List] Leave menu clicked
+2026-08-19 16:05:37 PM - INFO - [Leave List] My Leave submenu clicked
+2026-08-19 16:05:47 PM - INFO - [Leave List] My Leave page loaded
+2026-08-19 16:05:47 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 16:05:57 PM - INFO - [Leave List] Leave type selected
+2026-08-19 16:05:57 PM - INFO - [Leave List] Clicking Search button
+2026-08-19 16:05:57 PM - INFO - [Leave List] Search button clicked
+2026-08-19 16:06:07 PM - INFO - [Leave List] Search completed
+2026-08-19 16:06:07 PM - INFO - [Leave List] Total table rows: 4
+2026-08-19 16:06:07 PM - INFO - [Leave List] Searching status for: CAN - Personal
+2026-08-19 16:06:07 PM - INFO - [Leave List] Found 'CAN - Personal' with status 'Pending Approval (1.00)'
+2026-08-19 16:06:07 PM - INFO - Leave status returned: Pending Approval (1.00)
+2026-08-19 16:06:07 PM - INFO - Employee Leave List status test passed
+2026-08-19 16:06:15 PM - INFO - Starting test: test_remaining_leave_balance
+2026-08-19 16:06:15 PM - INFO - Username   : Rajaa
+2026-08-19 16:06:15 PM - INFO - Leave Type : CAN - Personal
+2026-08-19 16:06:15 PM - INFO - From Date  : 2026-14-09
+2026-08-19 16:06:15 PM - INFO - To Date    : 2026-14-09
+2026-08-19 16:06:15 PM - INFO - Logging in as: Rajaa
+2026-08-19 16:06:16 PM - INFO - Login successful
+2026-08-19 16:06:16 PM - INFO - Getting leave balance for: CAN - Personal
+2026-08-19 16:06:16 PM - INFO - [Leave List] Getting balance for: CAN - Personal
+2026-08-19 16:06:16 PM - INFO - [Leave List] Navigating to My Leave page
+2026-08-19 16:06:20 PM - INFO - [Leave List] Leave menu clicked
+2026-08-19 16:06:23 PM - INFO - [Leave List] My Leave submenu clicked
+2026-08-19 16:06:33 PM - INFO - [Leave List] My Leave page loaded
+2026-08-19 16:06:33 PM - INFO - [Leave List] Selecting leave type: CAN - Personal
+2026-08-19 16:06:43 PM - INFO - [Leave List] Leave type selected
+2026-08-19 16:06:43 PM - INFO - [Leave List] Clicking Search button
+2026-08-19 16:06:43 PM - INFO - [Leave List] Search button clicked
+2026-08-19 16:06:53 PM - INFO - [Leave List] Search completed
+2026-08-19 16:06:53 PM - INFO - [Leave List] Total table rows: 4
+2026-08-19 16:06:53 PM - INFO - [Leave List] Searching balance in 4 rows
+2026-08-19 16:06:53 PM - INFO - [Leave List] Leave balance for 'CAN - Personal': 47.00
+2026-08-19 16:06:53 PM - INFO - Leave balance returned: 47.00
+2026-08-19 16:06:53 PM - INFO - Remaining leave balance test passed
