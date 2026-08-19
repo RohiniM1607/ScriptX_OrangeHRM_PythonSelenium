@@ -33,3 +33,103 @@
 2026-06-14 10:31:48 AM - INFO - Login to the application
 2026-06-14 10:33:07 AM - INFO - Login to the application
 2026-06-14 10:37:26 AM - INFO - Login to the application
+2026-08-19 09:33:10 AM - INFO - Starting test: test_employee_apply_leave
+2026-08-19 09:33:10 AM - INFO - Logging in as: Rajaa
+2026-08-19 09:33:12 AM - INFO - Login successful
+2026-08-19 09:33:12 AM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09 | To: 2026-08-09
+2026-08-19 09:33:51 AM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-08-19 09:33:51 AM - INFO - Logging in as: Rajaa
+2026-08-19 09:33:52 AM - INFO - Login successful
+2026-08-19 09:33:52 AM - INFO - Applying leave without selecting Leave Type
+2026-08-19 11:07:16 AM - INFO - Starting test: test_employee_apply_leave
+2026-08-19 11:07:16 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:07:17 AM - INFO - Login successful
+2026-08-19 11:07:17 AM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09 | To: 2026-08-09
+2026-08-19 11:07:29 AM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-08-19 11:07:29 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:07:30 AM - INFO - Login successful
+2026-08-19 11:07:30 AM - INFO - Applying leave without selecting Leave Type
+2026-08-19 11:09:02 AM - INFO - Starting test: test_employee_apply_leave
+2026-08-19 11:09:02 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:09:03 AM - INFO - Login successful
+2026-08-19 11:09:03 AM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09 | To: 2026-08-09
+2026-08-19 11:09:26 AM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-08-19 11:09:26 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:09:28 AM - INFO - Login successful
+2026-08-19 11:09:28 AM - INFO - Applying leave without selecting Leave Type
+2026-08-19 11:09:53 AM - INFO - Starting test: test_employee_apply_leave
+2026-08-19 11:09:53 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:09:54 AM - INFO - Login successful
+2026-08-19 11:09:54 AM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09 | To: 2026-08-09
+2026-08-19 11:10:09 AM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-08-19 11:10:09 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:10:10 AM - INFO - Login successful
+2026-08-19 11:10:10 AM - INFO - Applying leave without selecting Leave Type
+2026-08-19 11:23:47 AM - INFO - Starting test: test_employee_apply_leave
+2026-08-19 11:23:47 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:23:48 AM - INFO - Login successful
+2026-08-19 11:23:48 AM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09 | To: 2026-08-09
+2026-08-19 11:24:27 AM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-08-19 11:24:27 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:24:29 AM - INFO - Login successful
+2026-08-19 11:24:29 AM - INFO - Applying leave without selecting Leave Type
+2026-08-19 11:25:53 AM - INFO - Starting test: test_employee_apply_leave
+2026-08-19 11:25:53 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:25:54 AM - INFO - Login successful
+2026-08-19 11:25:54 AM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09 | To: 2026-08-09
+2026-08-19 11:26:34 AM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-08-19 11:26:34 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:26:35 AM - INFO - Login successful
+2026-08-19 11:26:35 AM - INFO - Applying leave without selecting Leave Type
+2026-08-19 11:27:23 AM - INFO - Starting test: test_employee_apply_leave
+2026-08-19 11:27:23 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:27:24 AM - INFO - Login successful
+2026-08-19 11:27:24 AM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09 | To: 2026-08-09
+2026-08-19 11:28:08 AM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-08-19 11:28:08 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:28:09 AM - INFO - Login successful
+2026-08-19 11:28:09 AM - INFO - Applying leave without selecting Leave Type
+2026-08-19 11:29:13 AM - INFO - Starting test: test_employee_apply_leave
+2026-08-19 11:29:13 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:29:17 AM - INFO - Login successful
+2026-08-19 11:29:17 AM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09 | To: 2026-08-09
+2026-08-19 11:31:18 AM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-08-19 11:31:18 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:31:20 AM - INFO - Login successful
+2026-08-19 11:31:20 AM - INFO - Applying leave without selecting Leave Type
+2026-08-19 11:33:35 AM - INFO - Starting test: test_employee_apply_leave
+2026-08-19 11:33:35 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:33:37 AM - INFO - Login successful
+2026-08-19 11:33:37 AM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09 | To: 2026-08-09
+2026-08-19 11:35:48 AM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-08-19 11:35:48 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:35:49 AM - INFO - Login successful
+2026-08-19 11:35:49 AM - INFO - Applying leave without selecting Leave Type
+2026-08-19 11:37:02 AM - INFO - Leave Type required validation triggered successfully
+2026-08-19 11:44:23 AM - INFO - Starting test: test_employee_apply_leave
+2026-08-19 11:44:23 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:44:24 AM - INFO - Login successful
+2026-08-19 11:44:24 AM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09 | To: 2026-08-09
+2026-08-19 11:45:21 AM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-08-19 11:45:21 AM - INFO - Logging in as: Rajaa
+2026-08-19 11:45:22 AM - INFO - Login successful
+2026-08-19 11:45:22 AM - INFO - Applying leave without selecting Leave Type
+2026-08-19 11:45:29 AM - INFO - Leave Type required validation triggered successfully
+2026-08-19 12:50:50 PM - INFO - Starting test: test_employee_apply_leave
+2026-08-19 12:50:50 PM - INFO - Logging in as: Rajaa
+2026-08-19 12:50:54 PM - INFO - Login successful
+2026-08-19 12:50:54 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09 | To: 2026-08-09
+2026-08-19 12:51:42 PM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-08-19 12:51:42 PM - INFO - Logging in as: Rajaa
+2026-08-19 12:51:43 PM - INFO - Login successful
+2026-08-19 12:51:43 PM - INFO - Applying leave without selecting Leave Type
+2026-08-19 12:55:34 PM - INFO - Starting test: test_employee_apply_leave
+2026-08-19 12:55:34 PM - INFO - Logging in as: Rajaa
+2026-08-19 12:55:35 PM - INFO - Login successful
+2026-08-19 12:55:35 PM - INFO - Applying leave | Type: CAN - Personal | From: 2026-08-09 | To: 2026-08-09
+2026-08-19 12:55:44 PM - INFO - Test passed: Employee leave applied successfully
+2026-08-19 12:55:51 PM - INFO - Starting test: test_apply_leave_without_leave_type
+2026-08-19 12:55:51 PM - INFO - Logging in as: Rajaa
+2026-08-19 12:55:52 PM - INFO - Login successful
+2026-08-19 12:55:52 PM - INFO - Applying leave without selecting Leave Type
+2026-08-19 12:55:59 PM - INFO - Test passed: Leave Type required validation displayed
