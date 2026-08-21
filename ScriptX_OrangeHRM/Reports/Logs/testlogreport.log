@@ -288,3 +288,49 @@
 2026-07-12 19:51:16 PM - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59601): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/84ce9e1dab13237e3a4f4d8cf5a09b35
 2026-07-12 19:51:20 PM - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59601): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/84ce9e1dab13237e3a4f4d8cf5a09b35
 2026-07-12 19:58:18 PM - INFO - Login to the application
+2026-07-14 19:37:06 PM - INFO - Clicked Leave menu
+2026-07-14 19:37:07 PM - INFO - clicked Add entitlement Menu
+2026-07-14 19:37:07 PM - INFO - Clicked  Add entitlement sub menu
+2026-07-14 19:37:08 PM - INFO - Entering employee name: Ravi M B
+2026-07-14 19:37:08 PM - INFO - Wait for invisibility of searching text
+2026-07-14 19:37:09 PM - INFO - Selected Employee name is: Searching....
+2026-07-14 19:37:09 PM - INFO - Selecting leave type
+2026-07-14 19:37:09 PM - INFO - Selected leave type is: CAN - Personal
+2026-07-14 19:37:09 PM - INFO - Entering leave entitlement days 50
+2026-07-14 19:37:09 PM - INFO - Click on save button
+2026-07-14 19:37:22 PM - INFO - Getting Confirmation message for added leave entitlement
+2026-07-14 19:37:46 PM - INFO - Clicked Leave menu
+2026-07-14 19:37:47 PM - INFO - clicked Add entitlement Menu
+2026-07-14 19:37:48 PM - INFO - Clicked  Add entitlement sub menu
+2026-07-14 19:37:48 PM - INFO - Entering employee name: Ravi M B
+2026-07-14 19:37:48 PM - INFO - Wait for invisibility of searching text
+2026-07-14 19:37:49 PM - INFO - Selected Employee name is: Searching....
+2026-07-14 19:37:49 PM - INFO - Selecting leave type
+2026-07-14 19:37:49 PM - INFO - Selected leave type is: CAN - Vacation
+2026-07-14 19:37:49 PM - INFO - Entering leave entitlement days 60
+2026-07-14 19:37:49 PM - INFO - Click on save button
+2026-07-14 19:37:59 PM - INFO - Getting Confirmation message for added leave entitlement
+2026-07-14 19:38:32 PM - INFO - Clicked Leave menu
+2026-07-14 19:38:33 PM - INFO - clicked Add entitlement Menu
+2026-07-14 19:38:33 PM - INFO - Clicked  Add entitlement sub menu
+2026-07-14 19:38:34 PM - INFO - Selecting leave type
+2026-07-14 19:38:35 PM - INFO - Selected leave type is: CAN - Personal
+2026-07-14 19:38:35 PM - INFO - Entering leave entitlement days 20
+2026-07-14 19:38:35 PM - INFO - Click on save button
+2026-07-14 19:38:35 PM - INFO - Required message for empty employee name field
+2026-07-14 19:39:01 PM - INFO - Clicked Leave menu
+2026-07-14 19:39:02 PM - INFO - clicked Add entitlement Menu
+2026-07-14 19:39:06 PM - INFO - Clicked  Add entitlement sub menu
+2026-07-14 19:39:08 PM - INFO - Entering employee name: Ravi M B
+2026-07-14 19:39:08 PM - INFO - Wait for invisibility of searching text
+2026-07-14 19:39:08 PM - INFO - Selected Employee name is: Searching....
+2026-07-14 19:39:08 PM - INFO - Selecting leave type
+2026-07-14 19:39:10 PM - INFO - Selected leave type is: CAN - Personal
+2026-07-14 19:39:11 PM - INFO - Entering leave entitlement days 10001
+2026-07-14 19:39:11 PM - INFO - Exceed error message for entering exceed leave entitlement days
+2026-07-14 19:39:31 PM - INFO - Clicked Leave menu
+2026-07-14 19:39:32 PM - INFO - clicked Add entitlement Menu
+2026-07-14 19:39:33 PM - INFO - Clicked  Add entitlement sub menu
+2026-07-14 19:39:34 PM - INFO - Entering employee name: Myl
+2026-07-14 19:39:34 PM - INFO - Wait for invisibility of searching text
+2026-07-14 19:39:34 PM - INFO - Getting Searching.... for invalid employee name
