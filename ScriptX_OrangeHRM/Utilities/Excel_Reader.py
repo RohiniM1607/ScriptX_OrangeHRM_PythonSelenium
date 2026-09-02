@@ -14,6 +14,8 @@ def get_data(path, sheet_name):
         final_list.append(row_list)
     return final_list
 
+    return final_list
+
 def invalid_AddLeave_data(path, sheet_name):
     final_list = []
     workbook = openpyxl.load_workbook(path)
@@ -45,4 +47,9 @@ def exceed_LeaveLimit(path, sheet_name):
     return final_list
 def get_filtered_data(path, sheet_name, filter_value):
     data = get_data(path, sheet_name)
-    return [row[1:]   for row in data if str(row[0]).strip() == filter_value.strip()]
+    return [row[1:]   for row in data if row[0] == filter_value]
+
+def get_buzz_data(path, sheet_name):
+    data = get_data(path, sheet_name)
+    return [[row[0], row[1]] for row in data if row[0] is not None]
+

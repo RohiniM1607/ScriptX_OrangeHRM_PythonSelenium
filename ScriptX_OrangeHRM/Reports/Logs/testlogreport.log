@@ -8,159 +8,6 @@
 2026-06-12 14:41:56 PM - INFO - Login to the application
 2026-06-12 14:43:33 PM - INFO - Login to the application
 2026-06-12 14:44:42 PM - INFO - Login to the application
-2026-06-15 11:53:06 AM - INFO - Click Leave menu
-2026-06-15 11:53:06 AM - INFO - click Add entitlement Menu
-2026-06-15 11:53:07 AM - INFO - Click Add entitlement sub menu
-2026-06-15 11:53:08 AM - INFO - Entering employee name: Ravi M B
-2026-06-15 11:53:18 AM - INFO - Wait for invisibility of searching text
-2026-06-15 11:53:30 AM - INFO - Click Leave menu
-2026-06-15 11:53:31 AM - INFO - click Add entitlement Menu
-2026-06-15 11:53:34 AM - INFO - Click Add entitlement sub menu
-2026-06-15 11:53:35 AM - INFO - Entering employee name: Ravi M B
-2026-06-15 11:53:45 AM - INFO - Wait for invisibility of searching text
-2026-06-15 11:53:59 AM - INFO - Click Leave menu
-2026-06-15 11:54:00 AM - INFO - click Add entitlement Menu
-2026-06-15 11:54:03 AM - INFO - Click Add entitlement sub menu
-2026-06-15 11:54:04 AM - INFO - Selecting leave type
-2026-06-15 11:54:05 AM - INFO - Selected leave type is: CAN - Personal
-2026-06-15 11:54:05 AM - INFO - Entering leave entitlement days 20
-2026-06-15 11:54:05 AM - INFO - Click on save button
-2026-06-15 11:54:05 AM - INFO - Required message for empty employee name field
-2026-06-15 11:54:24 AM - INFO - Click Leave menu
-2026-06-15 11:54:25 AM - INFO - click Add entitlement Menu
-2026-06-15 11:54:28 AM - INFO - Click Add entitlement sub menu
-2026-06-15 11:54:29 AM - INFO - Entering employee name: Ravi M B
-2026-06-15 11:54:39 AM - INFO - Wait for invisibility of searching text
-2026-06-15 11:54:56 AM - INFO - Click Leave menu
-2026-06-15 11:54:56 AM - INFO - click Add entitlement Menu
-2026-06-15 11:54:58 AM - INFO - Click Add entitlement sub menu
-2026-06-15 11:54:59 AM - INFO - Entering employee name: Myl
-2026-06-15 11:55:09 AM - INFO - Wait for invisibility of searching text
-2026-06-15 14:13:41 PM - INFO - Clicked Leave menu
-2026-06-15 14:13:42 PM - INFO - clicked Add entitlement Menu
-2026-06-15 14:13:43 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 14:13:43 PM - INFO - Entering employee name: Ravi M B
-2026-06-15 14:13:53 PM - INFO - Wait for invisibility of searching text
-2026-06-15 14:14:03 PM - INFO - Clicked Leave menu
-2026-06-15 14:14:04 PM - INFO - clicked Add entitlement Menu
-2026-06-15 14:14:05 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 14:14:05 PM - INFO - Entering employee name: Ravi M B
-2026-06-15 14:14:15 PM - INFO - Wait for invisibility of searching text
-2026-06-15 14:14:25 PM - INFO - Clicked Leave menu
-2026-06-15 14:14:26 PM - INFO - clicked Add entitlement Menu
-2026-06-15 14:14:27 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 14:14:28 PM - INFO - Selecting leave type
-2026-06-15 14:14:28 PM - INFO - Selected leave type is: CAN - Personal
-2026-06-15 14:14:29 PM - INFO - Entering leave entitlement days 20
-2026-06-15 14:14:29 PM - INFO - Click on save button
-2026-06-15 14:14:29 PM - INFO - Required message for empty employee name field
-2026-06-15 14:14:41 PM - INFO - Clicked Leave menu
-2026-06-15 14:14:41 PM - INFO - clicked Add entitlement Menu
-2026-06-15 14:14:42 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 14:14:43 PM - INFO - Entering employee name: Ravi M B
-2026-06-15 14:14:53 PM - INFO - Wait for invisibility of searching text
-2026-06-15 14:15:05 PM - INFO - Clicked Leave menu
-2026-06-15 14:15:05 PM - INFO - clicked Add entitlement Menu
-2026-06-15 14:15:06 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 14:15:06 PM - INFO - Entering employee name: Myl
-2026-06-15 14:15:16 PM - INFO - Wait for invisibility of searching text
-2026-06-15 14:15:16 PM - INFO - Getting No Records Found for invalid employee name
-2026-06-15 15:56:30 PM - INFO - Clicked Leave menu
-2026-06-15 15:56:30 PM - INFO - clicked Add entitlement Menu
-2026-06-15 15:56:31 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 15:56:32 PM - INFO - Entering employee name: Ravi M B
-2026-06-15 15:56:42 PM - INFO - Wait for invisibility of searching text
-2026-06-15 15:56:42 PM - INFO - Employee suggestion found: Searching....
-2026-06-15 15:56:42 PM - INFO - Selected Employee name: Ravi M B
-2026-06-15 15:56:42 PM - INFO - Selecting leave type
-2026-06-15 15:56:43 PM - INFO - Selected leave type is: CAN - Personal
-2026-06-15 15:56:43 PM - INFO - Entering leave entitlement days 50
-2026-06-15 15:56:43 PM - INFO - Click on save button
-2026-06-15 15:57:25 PM - INFO - Clicked Leave menu
-2026-06-15 15:57:26 PM - INFO - clicked Add entitlement Menu
-2026-06-15 15:57:27 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 15:57:28 PM - INFO - Entering employee name: Ravi M B
-2026-06-15 15:57:38 PM - INFO - Wait for invisibility of searching text
-2026-06-15 15:57:38 PM - INFO - Employee suggestion found: Searching....
-2026-06-15 15:57:38 PM - INFO - Selected Employee name: Ravi M B
-2026-06-15 15:57:38 PM - INFO - Selecting leave type
-2026-06-15 15:57:38 PM - INFO - Selected leave type is: CAN - Vacation
-2026-06-15 15:57:38 PM - INFO - Entering leave entitlement days 60
-2026-06-15 15:57:38 PM - INFO - Click on save button
-2026-06-15 15:58:25 PM - INFO - Clicked Leave menu
-2026-06-15 15:58:26 PM - INFO - clicked Add entitlement Menu
-2026-06-15 15:58:29 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 15:58:31 PM - INFO - Selecting leave type
-2026-06-15 15:58:32 PM - INFO - Selected leave type is: CAN - Personal
-2026-06-15 15:58:32 PM - INFO - Entering leave entitlement days 20
-2026-06-15 15:58:33 PM - INFO - Click on save button
-2026-06-15 15:58:33 PM - INFO - Required message for empty employee name field
-2026-06-15 15:58:53 PM - INFO - Clicked Leave menu
-2026-06-15 15:58:54 PM - INFO - clicked Add entitlement Menu
-2026-06-15 15:58:57 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 15:58:59 PM - INFO - Entering employee name: Ravi M B
-2026-06-15 15:59:09 PM - INFO - Wait for invisibility of searching text
-2026-06-15 15:59:09 PM - INFO - Employee suggestion found: Searching....
-2026-06-15 15:59:09 PM - INFO - Selected Employee name: Ravi M B
-2026-06-15 15:59:09 PM - INFO - Selecting leave type
-2026-06-15 15:59:09 PM - INFO - Selected leave type is: CAN - Personal
-2026-06-15 15:59:10 PM - INFO - Entering leave entitlement days 10001
-2026-06-15 15:59:10 PM - INFO - Exceed error message for entering exceed leave entitlement days
-2026-06-15 15:59:39 PM - INFO - Clicked Leave menu
-2026-06-15 15:59:43 PM - INFO - clicked Add entitlement Menu
-2026-06-15 15:59:48 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 15:59:52 PM - INFO - Entering employee name: Myl
-2026-06-15 16:00:03 PM - INFO - Wait for invisibility of searching text
-2026-06-15 16:00:03 PM - INFO - Getting No Records Found for invalid employee name
-2026-06-15 16:00:42 PM - INFO - Clicked Leave menu
-2026-06-15 16:00:43 PM - INFO - clicked Add entitlement Menu
-2026-06-15 16:00:45 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 16:00:46 PM - INFO - Entering employee name: Teja  Sai
-2026-06-15 16:00:56 PM - INFO - Wait for invisibility of searching text
-2026-06-15 16:00:56 PM - INFO - Employee suggestion found: Searching....
-2026-06-15 16:00:56 PM - INFO - Selected Employee name: Teja  Sai
-2026-06-15 16:00:57 PM - INFO - Selecting leave type
-2026-06-15 16:00:57 PM - INFO - Selected leave type is: CAN - Personal
-2026-06-15 16:00:57 PM - INFO - Entering leave entitlement days 50
-2026-06-15 16:00:57 PM - INFO - Click on save button
-2026-06-15 16:00:58 PM - INFO - Getting Confirmation message for added leave entitlement
-2026-06-15 16:01:12 PM - INFO - Clicked Leave menu
-2026-06-15 16:01:13 PM - INFO - clicked Add entitlement Menu
-2026-06-15 16:01:16 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 16:01:17 PM - INFO - Entering employee name: Teja  Sai
-2026-06-15 16:01:27 PM - INFO - Wait for invisibility of searching text
-2026-06-15 16:01:27 PM - INFO - Employee suggestion found: Searching....
-2026-06-15 16:01:27 PM - INFO - Selected Employee name: Teja  Sai
-2026-06-15 16:01:27 PM - INFO - Selecting leave type
-2026-06-15 16:01:27 PM - INFO - Selected leave type is: CAN - Vacation
-2026-06-15 16:01:27 PM - INFO - Entering leave entitlement days 60
-2026-06-15 16:01:27 PM - INFO - Click on save button
-2026-06-15 16:01:28 PM - INFO - Getting Confirmation message for added leave entitlement
-2026-06-15 16:01:46 PM - INFO - Clicked Leave menu
-2026-06-15 16:01:47 PM - INFO - clicked Add entitlement Menu
-2026-06-15 16:01:51 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 16:01:53 PM - INFO - Selecting leave type
-2026-06-15 16:01:55 PM - INFO - Selected leave type is: CAN - Personal
-2026-06-15 16:01:55 PM - INFO - Entering leave entitlement days 20
-2026-06-15 16:01:55 PM - INFO - Click on save button
-2026-06-15 16:01:55 PM - INFO - Required message for empty employee name field
-2026-06-15 16:02:18 PM - INFO - Clicked Leave menu
-2026-06-15 16:02:19 PM - INFO - clicked Add entitlement Menu
-2026-06-15 16:02:22 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 16:02:24 PM - INFO - Entering employee name: Ravi M B
-2026-06-15 16:02:34 PM - INFO - Wait for invisibility of searching text
-2026-06-15 16:02:34 PM - INFO - Employee suggestion found: Searching....
-2026-06-15 16:02:34 PM - INFO - Selected Employee name: Ravi M B
-2026-06-15 16:02:34 PM - INFO - Selecting leave type
-2026-06-15 16:02:34 PM - INFO - Selected leave type is: CAN - Personal
-2026-06-15 16:02:34 PM - INFO - Entering leave entitlement days 10001
-2026-06-15 16:02:34 PM - INFO - Exceed error message for entering exceed leave entitlement days
-2026-06-15 16:02:48 PM - INFO - Clicked Leave menu
-2026-06-15 16:02:48 PM - INFO - clicked Add entitlement Menu
-2026-06-15 16:02:50 PM - INFO - Clicked  Add entitlement sub menu
-2026-06-15 16:02:50 PM - INFO - Entering employee name: Myl
-2026-06-15 16:03:00 PM - INFO - Wait for invisibility of searching text
-2026-06-15 16:03:00 PM - INFO - Getting No Records Found for invalid employee name
 2026-06-12 15:13:42 PM - INFO - Login to the application
 2026-06-12 15:14:39 PM - INFO - Login to the application
 2026-06-12 15:17:23 PM - INFO - Login to the application
@@ -186,105 +33,131 @@
 2026-06-14 10:31:48 AM - INFO - Login to the application
 2026-06-14 10:33:07 AM - INFO - Login to the application
 2026-06-14 10:37:26 AM - INFO - Login to the application
-<<<<<<< HEAD
-2026-06-15 05:29:26 AM - INFO - Login to the application
-2026-06-15 05:31:56 AM - INFO - Login to the application
-=======
-2026-06-14 10:59:36 AM - INFO - Login to the application
-2026-06-14 12:29:13 PM - INFO - Login to the application
-2026-06-14 12:59:46 PM - INFO - Login to the application
-2026-06-14 13:03:50 PM - INFO - Login to the application
-2026-06-14 13:08:12 PM - INFO - Login to the application
-2026-06-14 13:15:03 PM - INFO - Login to the application
-2026-06-14 13:18:39 PM - INFO - Login to the application
-2026-06-14 18:36:15 PM - INFO - Login to the application
-2026-06-14 18:59:45 PM - INFO - Login to the application
-2026-06-14 19:09:28 PM - INFO - Login to the application
-2026-06-14 19:17:56 PM - INFO - Login to the application
-2026-06-14 19:19:14 PM - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=61664): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/79ddcfdcc40ad5306cee61407462c5c6
-2026-06-14 19:19:18 PM - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=61664): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/79ddcfdcc40ad5306cee61407462c5c6
-2026-06-14 19:19:23 PM - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=61664): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/79ddcfdcc40ad5306cee61407462c5c6
-2026-06-14 19:22:46 PM - INFO - Login to the application
-2026-06-14 19:34:26 PM - INFO - Login to the application
-2026-06-14 19:34:46 PM - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50199): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/c1f09fef3d9d7f23def05c572f82ab85
-2026-06-14 19:34:50 PM - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50199): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/c1f09fef3d9d7f23def05c572f82ab85
-2026-06-14 19:34:54 PM - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50199): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/c1f09fef3d9d7f23def05c572f82ab85
-2026-06-14 19:35:38 PM - INFO - Login to the application
-2026-06-14 19:39:19 PM - INFO - Login to the application
-2026-07-07 08:39:19 AM - INFO - Clicked Leave menu
-2026-07-07 08:39:20 AM - INFO - clicked Add entitlement Menu
-2026-07-07 08:39:22 AM - INFO - Clicked  Add entitlement sub menu
-2026-07-07 08:39:24 AM - INFO - Entering employee name: Ravi M B
-2026-07-07 08:39:24 AM - INFO - Wait for invisibility of searching text
-2026-07-07 08:39:24 AM - INFO - Selected Employee name is: Searching....
-2026-07-07 08:39:24 AM - INFO - Selecting leave type
-2026-07-07 08:39:25 AM - INFO - Selected leave type is: CAN - Personal
-2026-07-07 08:39:25 AM - INFO - Entering leave entitlement days 50
-2026-07-07 08:39:25 AM - INFO - Click on save button
-2026-07-07 08:42:16 AM - INFO - Clicked Leave menu
-2026-07-07 08:42:18 AM - INFO - clicked Add entitlement Menu
-2026-07-07 08:42:19 AM - INFO - Clicked  Add entitlement sub menu
-2026-07-07 08:42:21 AM - INFO - Selecting leave type
-2026-07-07 08:42:23 AM - INFO - Selected leave type is: CAN - Personal
-2026-07-07 08:42:23 AM - INFO - Entering leave entitlement days 20
-2026-07-07 08:42:23 AM - INFO - Click on save button
-2026-07-07 08:42:23 AM - INFO - Required message for empty employee name field
-2026-07-07 08:42:53 AM - INFO - Clicked Leave menu
-2026-07-07 08:42:54 AM - INFO - clicked Add entitlement Menu
-2026-07-07 08:42:56 AM - INFO - Clicked  Add entitlement sub menu
-2026-07-07 08:42:57 AM - INFO - Entering employee name: Ravi M B
-2026-07-07 08:42:57 AM - INFO - Wait for invisibility of searching text
-2026-07-07 08:42:57 AM - INFO - Selected Employee name is: Searching....
-2026-07-07 08:42:57 AM - INFO - Selecting leave type
-2026-07-07 08:42:57 AM - INFO - Selected leave type is: CAN - Personal
-2026-07-07 08:42:58 AM - INFO - Entering leave entitlement days 10001
-2026-07-07 08:42:58 AM - INFO - Exceed error message for entering exceed leave entitlement days
-2026-07-07 08:43:29 AM - INFO - Clicked Leave menu
-2026-07-07 08:43:29 AM - INFO - clicked Add entitlement Menu
-2026-07-07 08:43:30 AM - INFO - Clicked  Add entitlement sub menu
-2026-07-07 08:43:32 AM - INFO - Entering employee name: Myl
-2026-07-07 08:43:32 AM - INFO - Wait for invisibility of searching text
-2026-07-07 08:43:32 AM - INFO - Getting Searching.... for invalid employee name
-2026-07-10 08:05:55 AM - INFO - Login to the application
-2026-07-10 08:06:20 AM - INFO - Login to the application
-2026-07-10 08:09:04 AM - INFO - Login to the application
-2026-07-10 08:14:26 AM - INFO - Login to the application
-2026-07-10 08:17:18 AM - INFO - Login to the application
-2026-07-10 08:19:10 AM - INFO - Login to the application
-2026-07-10 08:22:25 AM - INFO - Login to the application
-2026-07-10 08:25:32 AM - INFO - Login to the application
-2026-07-10 08:26:05 AM - INFO - Login to the application
-2026-07-10 08:26:35 AM - INFO - Login to the application
-2026-07-10 08:27:24 AM - INFO - Login to the application
-2026-07-10 08:34:00 AM - INFO - Creating Admin User
-2026-07-10 08:34:34 AM - INFO - Creating Admin User
-2026-07-10 08:35:05 AM - INFO - Creating Admin User
-2026-07-10 08:35:53 AM - INFO - Creating Admin User
-2026-07-12 17:38:23 PM - INFO - Login to the application
-2026-07-12 17:39:13 PM - INFO - Login to the application
-2026-07-12 17:43:23 PM - INFO - Login to the application
-2026-07-12 17:44:40 PM - INFO - Login to the application
-2026-07-12 17:46:17 PM - INFO - Login to the application
-2026-07-12 17:47:22 PM - INFO - Login to the application
-2026-07-12 17:51:32 PM - INFO - Login to the application
-2026-07-12 17:52:07 PM - INFO - Login to the application
-2026-07-12 17:52:36 PM - INFO - Login to the application
-2026-07-12 17:53:26 PM - INFO - Login to the application
-2026-07-12 17:54:18 PM - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55095): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/edf830693169e1b381356e73c36b73bf
-2026-07-12 17:54:22 PM - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55095): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/edf830693169e1b381356e73c36b73bf
-2026-07-12 17:54:26 PM - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=55095): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/edf830693169e1b381356e73c36b73bf
-2026-07-12 17:55:07 PM - INFO - Login to the application
-2026-07-12 17:55:45 PM - INFO - Login to the application
-2026-07-12 17:56:23 PM - INFO - Login to the application
-2026-07-12 17:57:09 PM - INFO - Login to the application
-2026-07-12 18:02:30 PM - INFO - Login to the application
-2026-07-12 19:44:02 PM - WARNING - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
-2026-07-12 19:44:02 PM - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
-2026-07-12 19:44:05 PM - WARNING - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
-2026-07-12 19:44:08 PM - WARNING - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
-2026-07-12 19:44:12 PM - WARNING - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
-2026-07-12 19:50:48 PM - INFO - Login to the application
-2026-07-12 19:51:12 PM - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59601): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/84ce9e1dab13237e3a4f4d8cf5a09b35
-2026-07-12 19:51:16 PM - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59601): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/84ce9e1dab13237e3a4f4d8cf5a09b35
-2026-07-12 19:51:20 PM - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59601): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/84ce9e1dab13237e3a4f4d8cf5a09b35
-2026-07-12 19:58:18 PM - INFO - Login to the application
+2026-06-15 07:35:47 AM - INFO - Starting test: test_create_post
+2026-06-15 07:35:53 AM - INFO - Starting test: test_edit_post
+2026-06-15 07:35:53 AM - INFO - Logging in as: Rajaa
+2026-06-15 07:35:56 AM - INFO - Login successful
+2026-06-15 07:35:56 AM - INFO - Navigating to Buzz page
+2026-06-15 07:38:27 AM - INFO - Starting test: test_create_post
+2026-06-15 07:38:34 AM - INFO - Starting test: test_edit_post
+2026-06-15 07:38:34 AM - INFO - Logging in as: Rajaa
+2026-06-15 07:38:36 AM - INFO - Login successful
+2026-06-15 07:38:36 AM - INFO - Navigating to Buzz page
+2026-06-15 07:38:39 AM - INFO - Editing latest post with text: ["I'm Happy", "Today, I'm attending a party to celebrate our project's success."]
+2026-06-15 07:42:40 AM - INFO - Starting test: test_create_post
+2026-06-15 07:42:41 AM - INFO - Logging in as: Rajaa
+2026-06-15 07:42:41 AM - INFO - Login successful
+2026-06-15 07:42:41 AM - INFO - Navigating to Buzz page
+2026-06-15 07:42:44 AM - INFO - Creating post with text: ["I'm Happy", "Today, I'm attending a party to celebrate our project's success."]
+2026-06-15 07:43:24 AM - INFO - Starting test: test_edit_post
+2026-06-15 07:43:24 AM - INFO - Logging in as: Rajaa
+2026-06-15 07:43:26 AM - INFO - Login successful
+2026-06-15 07:43:26 AM - INFO - Navigating to Buzz page
+2026-06-15 07:43:27 AM - INFO - Editing latest post with text: ["I'm Happy", "Today, I'm attending a party to celebrate our project's success."]
+2026-06-15 07:50:32 AM - INFO - Starting test: test_create_post
+2026-06-15 07:50:32 AM - INFO - Logging in as: Rajaa
+2026-06-15 07:50:33 AM - INFO - Login successful
+2026-06-15 07:50:33 AM - INFO - Navigating to Buzz page
+2026-06-15 07:50:37 AM - INFO - Creating post with text: I'm Happy
+2026-06-15 07:50:40 AM - INFO - Latest post username: Rajaa P
+2026-06-15 07:50:40 AM - INFO - Test passed: Post created and username matched successfully
+2026-06-15 07:50:47 AM - INFO - Starting test: test_edit_post
+2026-06-15 07:50:47 AM - INFO - Logging in as: Rajaa
+2026-06-15 07:50:48 AM - INFO - Login successful
+2026-06-15 07:50:48 AM - INFO - Navigating to Buzz page
+2026-06-15 07:50:50 AM - INFO - Editing latest post with text: Today, I'm attending a party to celebrate our project's success.
+2026-08-19 01:10:30 AM - INFO - Starting test: test_create_post
+2026-08-19 01:10:30 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:10:31 AM - INFO - Login successful
+2026-08-19 01:10:39 AM - INFO - Starting test: test_edit_post
+2026-08-19 01:10:39 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:10:40 AM - INFO - Login successful
+2026-08-19 01:13:02 AM - INFO - Starting test: test_create_post
+2026-08-19 01:13:02 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:13:02 AM - INFO - Login successful
+2026-08-19 01:13:36 AM - INFO - Starting test: test_edit_post
+2026-08-19 01:13:37 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:13:37 AM - INFO - Login successful
+2026-08-19 01:18:28 AM - INFO - Starting test: test_create_post
+2026-08-19 01:18:28 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:18:29 AM - INFO - Login successful
+2026-08-19 01:18:37 AM - INFO - Starting test: test_edit_post
+2026-08-19 01:18:37 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:18:38 AM - INFO - Login successful
+2026-08-19 01:20:24 AM - INFO - Starting test: test_create_post
+2026-08-19 01:20:24 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:20:25 AM - INFO - Login successful
+2026-08-19 01:20:28 AM - INFO - Latest post username: Rajaa P
+2026-08-19 01:20:34 AM - INFO - Starting test: test_edit_post
+2026-08-19 01:20:34 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:20:35 AM - INFO - Login successful
+2026-08-19 01:22:30 AM - INFO - Starting test: test_create_post
+2026-08-19 01:22:30 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:22:31 AM - INFO - Login successful
+2026-08-19 01:22:34 AM - INFO - Latest post username: Rajaa P
+2026-08-19 01:22:40 AM - INFO - Starting test: test_edit_post
+2026-08-19 01:22:40 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:22:41 AM - INFO - Login successful
+2026-08-19 01:22:45 AM - INFO - Post text after edit: I'm Happy
+2026-08-19 01:24:44 AM - INFO - Starting test: test_create_post
+2026-08-19 01:24:44 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:24:45 AM - INFO - Login successful
+2026-08-19 01:24:48 AM - INFO - Latest post username: Rajaa P
+2026-08-19 01:24:54 AM - INFO - Starting test: test_edit_post
+2026-08-19 01:24:54 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:24:55 AM - INFO - Login successful
+2026-08-19 01:26:01 AM - INFO - Starting test: test_create_post
+2026-08-19 01:26:01 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:26:01 AM - INFO - Login successful
+2026-08-19 01:26:05 AM - INFO - Latest post username: Rajaa P
+2026-08-19 01:26:10 AM - INFO - Starting test: test_edit_post
+2026-08-19 01:26:10 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:26:11 AM - INFO - Login successful
+2026-08-19 01:26:16 AM - INFO - Post text after edit: I'm Happy
+2026-08-19 01:29:20 AM - INFO - Starting test: test_create_post
+2026-08-19 01:29:20 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:29:20 AM - INFO - Login successful
+2026-08-19 01:29:20 AM - INFO - Navigating to Buzz page
+2026-08-19 01:29:23 AM - INFO - Creating post: I'm Happy
+2026-08-19 01:29:24 AM - INFO - Latest post username: Rajaa P
+2026-08-19 01:29:24 AM - INFO - Create post test passed
+2026-08-19 01:29:30 AM - INFO - Starting test: test_edit_post
+2026-08-19 01:29:30 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:29:31 AM - INFO - Login successful
+2026-08-19 01:29:31 AM - INFO - Navigating to Buzz page
+2026-08-19 01:29:33 AM - INFO - Creating post before edit: I'm Happy
+2026-08-19 01:29:33 AM - INFO - Editing post to: Today, I'm attending a party to celebrate our project's success.
+2026-08-19 01:31:59 AM - INFO - Starting test: test_create_post
+2026-08-19 01:31:59 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:32:00 AM - INFO - Login successful
+2026-08-19 01:32:00 AM - INFO - Navigating to Buzz page
+2026-08-19 01:32:28 AM - INFO - Starting test: test_edit_post
+2026-08-19 01:32:28 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:33:54 AM - INFO - Starting test: test_create_post
+2026-08-19 01:33:54 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:33:54 AM - INFO - Login successful
+2026-08-19 01:33:54 AM - INFO - Navigating to Buzz page
+2026-08-19 01:33:57 AM - INFO - Creating post: I'm Happy
+2026-08-19 01:33:58 AM - INFO - Latest post username: Rajaa P
+2026-08-19 01:33:58 AM - INFO - Create post test passed
+2026-08-19 01:34:04 AM - INFO - Starting test: test_edit_post
+2026-08-19 01:34:04 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:34:04 AM - INFO - Login successful
+2026-08-19 01:34:04 AM - INFO - Navigating to Buzz page
+2026-08-19 01:34:07 AM - INFO - Creating post before edit: I'm Happy
+2026-08-19 01:34:07 AM - INFO - Editing post to: Today, I'm attending a party to celebrate our project's success.
+2026-08-19 01:35:40 AM - INFO - Starting test: test_create_post
+2026-08-19 01:35:40 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:35:41 AM - INFO - Login successful
+2026-08-19 01:35:41 AM - INFO - Navigating to Buzz page
+2026-08-19 01:35:44 AM - INFO - Creating post: I'm Happy
+2026-08-19 01:35:44 AM - INFO - Latest post username: Rajaa P
+2026-08-19 01:35:44 AM - INFO - Create post test passed
+2026-08-19 01:35:50 AM - INFO - Starting test: test_edit_post
+2026-08-19 01:35:50 AM - INFO - Logging in as: Rajaa
+2026-08-19 01:35:51 AM - INFO - Login successful
+2026-08-19 01:35:51 AM - INFO - Navigating to Buzz page
+2026-08-19 01:35:54 AM - INFO - Creating post before edit: I'm Happy
+2026-08-19 01:35:54 AM - INFO - Editing post to: Today, I'm attending a party to celebrate our project's success.
+2026-08-19 01:35:56 AM - INFO - Post text after edit: Today, I'm attending a party to celebrate our project's success.
+2026-08-19 01:35:56 AM - INFO - Edit post test passed
